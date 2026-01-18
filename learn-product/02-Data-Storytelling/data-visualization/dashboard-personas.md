@@ -44,38 +44,14 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **KPI Cards** | At-a-glance metrics | Revenue, Growth %, Churn, NRR |
-| **[Line Charts](./graph-types/line-chart.md)** | Trend over 6-12 months | Revenue trend, User growth, Churn |
-| **Target vs Actual** | Goal tracking | Revenue target vs actual, NRR goal |
-| **[Bar Charts](./graph-types/bar-chart.md)** | Top drivers | Top regions, top channels, top products |
-| **Text Summary** | Why it matters | "Growth slowed due to X" |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **[KPI Cards](./graph-types/kpi-card.md)** | At-a-glance metrics | Revenue, Growth %, Churn, NRR | Tracking |
+| **[Line Charts](./graph-types/line-chart.md)** | Trend over 6-12 months | Revenue trend, User growth, Churn | Long-term changes |
+| **Target vs Actual** | Goal tracking | Revenue target vs actual, NRR goal | Health check |
+| **[Bar Charts](./graph-types/bar-chart.md)** | Top drivers | Top regions, top channels, top products | Segment performance |
+| **Summary** | Why it matters | "Growth slowed due to X" | Risk identification |
 
-#### Questions They Ask
-
-- Is revenue tracking to target?
-- Which segment is underperforming?
-- What changed month-over-month?
-- What's the biggest risk right now?
-
-#### What to Avoid
-
-- ❌ Long tables with 50 rows
-- ❌ More than 6-8 charts on one view
-- ❌ Filters that require explanation
-- ❌ Drill-downs (they want to see it in 30 seconds)
-- ❌ Multiple ways to interpret the same number
-
-#### Design Vibe
-
-**Very clean. Few charts. Strong titles.**
-
-- Large KPI cards at the top
-- One clear narrative per dashboard
-- Example title: "Revenue on track, but churn is up 2% — driven by enterprise segment"
-- Color: Green for good, red for concerning, gray for context
-- No animation or decorative charts
 
 #### Sample Layout
 
@@ -118,15 +94,15 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **KPIs + Trends** | Headline + direction | Activation rate + trend line |
-| **[Funnels](./graph-types/bar-chart.md)** | Identify drop-off | Signup → Verify → Activate → Pay |
-| **[Cohorts](./graph-types/bar-chart.md)** | Segment performance | Retention by signup week |
-| **[Bar Charts](./graph-types/bar-chart.md)** | Segmentation | New vs Returning, By plan tier |
-| **A/B Test Results** | Experiment outcome | Before/After with confidence |
-| **Top Issues Table** | What's breaking | Top error events, top drop-off points |
-| **[Line Charts](./graph-types/line-chart.md)** | Trends | Activation over time by segment |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **[KPI Cards](./graph-types/kpi-card.md) + Trends** | Headline + direction | Activation rate + trend line | Performance tracking |
+| **[Funnels](./graph-types/funnel.md)** | Identify drop-off | Signup → Verify → Activate → Pay | Conversion bottlenecks |
+| **[Cohorts](./graph-types/cohort-retention.md)** | Segment performance | Retention by signup week | Retention trends |
+| **[Bar Charts](./graph-types/bar-chart.md)** | Segmentation | New vs Returning, By plan tier | Segment comparison |
+| **A/B Test Results** | Experiment outcome | Before/After with confidence | Impact validation |
+| **[Top Issues Table](./graph-types/table.md)** | What's breaking | Top error events, top drop-off points | Problem prioritization |
+| **[Line Charts](./graph-types/line-chart.md)** | Trends | Activation over time by segment | Change over time |
 
 #### Questions They Ask
 
@@ -198,16 +174,16 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **[Funnels](./graph-types/bar-chart.md)** | Identify drop-off | Multi-step user journeys |
-| **Feature Adoption** | Who used feature X | Last 7 days, by segment, by plan |
-| **[Retention Curves](./graph-types/line-chart.md)** | User stickiness | D1, D7, D30 retention by cohort |
-| **[Segmentation Bars](./graph-types/bar-chart.md)** | Behavior by group | Device, region, plan tier, persona |
-| **Path/Journey** | What happens next | After first purchase, what do users do? |
-| **[Histogram](./graph-types/histogram.md)** | Distribution | Time-to-activate, session duration |
-| **Event Tables** | Raw data for debugging | Last 100 sessions, last 100 errors |
-| **[Scatter Plots](./graph-types/scatter-plot.md)** | Correlations | Engagement vs. retention |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **[Funnels](./graph-types/funnel.md)** | Identify drop-off | Multi-step user journeys | Conversion bottlenecks |
+| **Feature Adoption** | Who used feature X | Last 7 days, by segment, by plan | Feature usage |
+| **[Retention Curves](./graph-types/cohort-retention.md)** | User stickiness | D1, D7, D30 retention by cohort | User retention |
+| **[Segmentation Bars](./graph-types/bar-chart.md)** | Behavior by group | Device, region, plan tier, persona | Segment differences |
+| **Path/Journey** | What happens next | After first purchase, what do users do? | User flow |
+| **[Histogram](./graph-types/histogram.md)** | Distribution | Time-to-activate, session duration | Distribution analysis |
+| **[Event Tables](./graph-types/table.md)** | Raw data for debugging | Last 100 sessions, last 100 errors | Debugging |
+| **[Scatter Plots](./graph-types/scatter-plot.md)** | Correlations | Engagement vs. retention | Relationship discovery |
 
 #### Questions They Ask
 
@@ -290,15 +266,15 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **Channel Performance [Bars](./graph-types/bar-chart.md)** | Spend and efficiency | Meta, Google, SEO, Organic, Referral |
-| **[Trend Lines](./graph-types/line-chart.md)** | Spend and ROI over time | Daily spend, daily leads, daily ROAS |
-| **CAC/ROAS [Bars](./graph-types/bar-chart.md)** | Unit economics | Cost per acquisition, Return on ad spend |
-| **Cohort Retention [Lines](./graph-types/line-chart.md)** | Value by channel | Retention by acquisition channel |
-| **Funnel by Channel** | Drop-off by source | Impression → Click → Signup → Paid |
-| **Creative Performance Table** | Which ads work | Ad set, creative, CTR, CVR, CPC |
-| **Geo Breakdown [Bars](./graph-types/bar-chart.md)** | Geographic performance | US, EU, APAC |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **Channel Performance [Bars](./graph-types/bar-chart.md)** | Spend and efficiency | Meta, Google, SEO, Organic, Referral | Channel comparison |
+| **[Trend Lines](./graph-types/line-chart.md)** | Spend and ROI over time | Daily spend, daily leads, daily ROAS | Efficiency trends |
+| **CAC/ROAS [Bars](./graph-types/bar-chart.md)** | Unit economics | Cost per acquisition, Return on ad spend | Cost efficiency |
+| **[Cohort Retention](./graph-types/cohort-retention.md)** | Value by channel | Retention by acquisition channel | Long-term value |
+| **[Funnel](./graph-types/funnel.md) by Channel** | Drop-off by source | Impression → Click → Signup → Paid | Channel conversion |
+| **Creative Performance [Table](./graph-types/table.md)** | Which ads work | Ad set, creative, CTR, CVR, CPC | Ad optimization |
+| **Geo Breakdown [Bars](./graph-types/bar-chart.md)** | Geographic performance | US, EU, APAC | Market comparison |
 
 #### Questions They Ask
 
@@ -345,14 +321,14 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **Pipeline [Funnel](./graph-types/bar-chart.md)** | Deal stages | Leads → Qualified → Negotiation → Closed |
-| **Win Rate [Line](./graph-types/line-chart.md)** | Historical trend | Months of win rate |
-| **Time-to-Close [Histogram](./graph-types/histogram.md)** | Deal cycle | How long deals take |
-| **Account Health Score** | Risk indicator | Red/yellow/green + trend |
-| **Churn Risk Table** | Action-needed | High-risk accounts with reason |
-| **Rep Performance [Bars](./graph-types/bar-chart.md)** | Who's closing | Revenue per rep, deal count |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **Pipeline [Funnel](./graph-types/funnel.md)** | Deal stages | Leads → Qualified → Negotiation → Closed | Deal progression |
+| **Win Rate [Line](./graph-types/line-chart.md)** | Historical trend | Months of win rate | Performance trends |
+| **Time-to-Close [Histogram](./graph-types/histogram.md)** | Deal cycle | How long deals take | Sales velocity |
+| **Account Health Score** | Risk indicator | Red/yellow/green + trend | Churn risk |
+| **Churn Risk [Table](./graph-types/table.md)** | Action-needed | High-risk accounts with reason | Retention actions |
+| **Rep Performance [Bars](./graph-types/bar-chart.md)** | Who's closing | Revenue per rep, deal count | Team performance |
 
 #### Questions They Ask
 
@@ -399,14 +375,14 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **Status Cards** | Current state | Queue count, response time |
-| **Alerts** | What's breaking | SLA breached, outage, high error rate |
-| **[Line Charts](./graph-types/line-chart.md)** | Incident trend | Incidents over last 24h |
-| **[Bar Charts](./graph-types/bar-chart.md)** | Top issues | Top error categories |
-| **Live Tables** | Action needed | Tickets in queue, assigned to whom |
-| **Status by System** | Green/yellow/red | Service health, dependency health |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **Status [Cards](./graph-types/kpi-card.md)** | Current state | Queue count, response time | Real-time status |
+| **Alerts** | What's breaking | SLA breached, outage, high error rate | Immediate action |
+| **[Line Charts](./graph-types/line-chart.md)** | Incident trend | Incidents over last 24h | Trend monitoring |
+| **[Bar Charts](./graph-types/bar-chart.md)** | Top issues | Top error categories | Issue prioritization |
+| **Live [Tables](./graph-types/table.md)** | Action needed | Tickets in queue, assigned to whom | Task assignment |
+| **Status by System** | Green/yellow/red | Service health, dependency health | System health |
 
 #### Questions They Ask
 
@@ -472,17 +448,17 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **Metrics Dictionary** | Definitions | Revenue (ARR, MRR, LTV) |
-| **Cross-functional Views** | Holistic picture | Revenue + Retention + Product usage |
-| **[Scatter Plots](./graph-types/scatter-plot.md)** | Relationships | CAC vs LTV, Churn vs Support quality |
-| **[Histograms](./graph-types/histogram.md)** | Distributions | Distribution of customer value |
-| **Cohorts [Lines](./graph-types/line-chart.md)** | Segmented trends | Revenue by customer segment |
-| **Drill-down Trees** | Hierarchical exploration | Total → Region → Segment → Plan → User |
-| **Financial Views** | Unit economics | MRR, ARR, Churn, Expansion, Logo retention |
-| **Forecasting** | Predictions | Revenue forecast with confidence intervals |
-| **Data Quality Tables** | Trust | Last update time, data freshness, anomalies |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **Metrics Dictionary** | Definitions | Revenue (ARR, MRR, LTV) | Consistency |
+| **Cross-functional Views** | Holistic picture | Revenue + Retention + Product usage | Full context |
+| **[Scatter Plots](./graph-types/scatter-plot.md)** | Relationships | CAC vs LTV, Churn vs Support quality | Correlation analysis |
+| **[Histograms](./graph-types/histogram.md)** | Distributions | Distribution of customer value | Distribution shape |
+| **[Cohorts](./graph-types/cohort-retention.md)** | Segmented trends | Revenue by customer segment | Segment trends |
+| **Drill-down Trees** | Hierarchical exploration | Total → Region → Segment → Plan → User | Deep analysis |
+| **Financial Views** | Unit economics | MRR, ARR, Churn, Expansion, Logo retention | Business metrics |
+| **Forecasting** | Predictions | Revenue forecast with confidence intervals | Future planning |
+| **Data Quality [Tables](./graph-types/table.md)** | Trust | Last update time, data freshness, anomalies | Data reliability |
 
 #### Questions They Ask
 
@@ -531,13 +507,13 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 
 #### Charts & Components They Use
 
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **Simple KPI Cards** | At a glance | Usage, ROI, Performance |
-| **[Line Charts](./graph-types/line-chart.md)** | Trend | Usage over time |
-| **Simple Breakdown [Bars](./graph-types/bar-chart.md)** | What's driving value | By feature, by team, by project |
-| **Health Score** | Is it working? | "You're in the 75th percentile" |
-| **Export Button** | For reporting | CSV, PDF export |
+| Component | Purpose | Example | Solves for |
+|-----------|---------|---------|------------|
+| **Simple [KPI Cards](./graph-types/kpi-card.md)** | At a glance | Usage, ROI, Performance | Quick summary |
+| **[Line Charts](./graph-types/line-chart.md)** | Trend | Usage over time | Usage trends |
+| **Simple Breakdown [Bars](./graph-types/bar-chart.md)** | What's driving value | By feature, by team, by project | Value drivers |
+| **Health Score** | Is it working? | "You're in the 75th percentile" | Benchmarking |
+| **Export Button** | For reporting | CSV, PDF export | Sharing |
 
 #### Questions They Ask
 
