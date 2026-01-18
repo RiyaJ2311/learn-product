@@ -5,7 +5,6 @@
 The line chart is the language of trends — when you want to show how something changes over time, nothing communicates better.
 
 <!-- Image Definitions -->
-[line-variations]: image/line-chart/1768738441756.png
 
 ---
 
@@ -107,18 +106,20 @@ The angle of lines communicates rate of change. A steep slope feels dramatic; a 
 
 ## Common Issues and How to Fix Them
 
-| Issue | Problem | Fix |
-|-------|---------|-----|
-| **Dual Y-Axes (The Cardinal Sin)** | Two different scales on left and right sides: You can make any two lines appear correlated · The relationship depends entirely on how you scale each axis · Readers can't accurately compare values · Example: By choosing scales, you can make sales "track" temperature, proving nothing | Use two separate charts · Normalize both to percentages · Use index (both starting at 100) |
-| **Spaghetti Charts** | Too many overlapping lines, impossible to read | Highlight one line, gray out others · Small multiples (one chart per line) · Interactive filtering · Show only top/bottom performers |
-| **Misleading Axis Truncation** | Y-axis doesn't start at zero, making changes look larger. Example: Revenue $99M to $101M with axis from $98M to $102M looks like 100% growth | Either start at zero, or clearly annotate that the axis is truncated and why |
-| **Irregular Time Intervals** | X-axis has inconsistent spacing (Jan, Feb, June, Dec) — the slope of the line misrepresents the rate of change | Space time intervals proportionally · Clearly mark that intervals are irregular · Consider using bars for irregular data |
-| **Missing Data** | Gaps in the data series | Break the line (data is truly missing) · Connect anyway (gap is small, pattern matters) · Interpolate (only if valid) · Mark as estimate (if filling in, be transparent). **Never** silently interpolate if the gap might hide important events |
-| **Overloaded Annotations** | Too many labels, callouts, and annotations | Annotate only the most important events. Let the line tell most of the story |
+| Issue                                    | Problem                                                                                                                                                                                                                                                                                       | Fix                                                                                                                                                                                                                                                     |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Dual Y-Axes (The Cardinal Sin)** | Two different scales on left and right sides: You can make any two lines appear correlated · The relationship depends entirely on how you scale each axis · Readers can't accurately compare values · Example: By choosing scales, you can make sales "track" temperature, proving nothing | Use two separate charts · Normalize both to percentages · Use index (both starting at 100)                                                                                                                                                            |
+| **Spaghetti Charts**               | Too many overlapping lines, impossible to read                                                                                                                                                                                                                                                | Highlight one line, gray out others · Small multiples (one chart per line) · Interactive filtering · Show only top/bottom performers                                                                                                                 |
+| **Misleading Axis Truncation**     | Y-axis doesn't start at zero, making changes look larger. Example: Revenue $99M to $101M with axis from $98M to $102M looks like 100% growth                                                                                                                                                  | Either start at zero, or clearly annotate that the axis is truncated and why                                                                                                                                                                            |
+| **Irregular Time Intervals**       | X-axis has inconsistent spacing (Jan, Feb, June, Dec) — the slope of the line misrepresents the rate of change                                                                                                                                                                               | Space time intervals proportionally · Clearly mark that intervals are irregular · Consider using bars for irregular data                                                                                                                              |
+| **Missing Data**                   | Gaps in the data series                                                                                                                                                                                                                                                                       | Break the line (data is truly missing) · Connect anyway (gap is small, pattern matters) · Interpolate (only if valid) · Mark as estimate (if filling in, be transparent).**Never** silently interpolate if the gap might hide important events |
+| **Overloaded Annotations**         | Too many labels, callouts, and annotations                                                                                                                                                                                                                                                    | Annotate only the most important events. Let the line tell most of the story                                                                                                                                                                            |
 
 ---
 
 ## Labeling Best Practices
+
+![1768738613384](image/line-chart/1768738613384.png)
 
 ### Title Formula
 
@@ -131,15 +132,15 @@ The angle of lines communicates rate of change. A steep slope feels dramatic; a 
 
 ### Axis Labels
 
-| Axis | Best Practice |
-|------|---------------|
+| Axis                    | Best Practice                                                                                                                                                                      |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **X-axis (time)** | Use appropriate granularity (not all 365 days if monthly trends matter) · Label enough points for orientation, not every point · Consider: Jan '24, Feb '24... or just Q1, Q2... |
-| **Y-axis** | Include units: "Revenue ($M)" · Round to readable numbers · Remove excessive grid lines |
+| **Y-axis**        | Include units: "Revenue ($M)" · Round to readable numbers · Remove excessive grid lines                                                                                          |
 
 ### Direct Line Labels
 
-| Approach | Recommendation |
-|----------|----------------|
+| Approach                     | Recommendation                                                                                          |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Instead of legends** | Label each line at its end point · Use matching colors for label and line · Position to avoid overlap |
 
 ### Annotations
@@ -181,10 +182,12 @@ When showing trends, the line chart is usually right. Just keep it clean.
 - **[Area Chart](./area-chart.md)** — For emphasizing volume or composition over time
 - **[Bar Chart](./bar-chart.md)** — For comparing categories at a single point
 - **[Histogram](./histogram.md)** — For understanding the distribution of values in your data
-- **[Multi-line Dangers](../intro-to-graphs.md#issue-2-spaghetti-charts)** — Learn about spaghetti chart problems
+- **[Small Multiples](../glossary.md#small-multiples)** — Alternative to overlapping lines
 
 **Related Concepts**:
 
 - [Data Storytelling Framework](../intro-to-graphs.md#part-8-data-storytelling-framework)
-- [Aspect Ratio in Design](../intro-to-graphs.md#4-the-5-second-rule)
-- [Misleading Axis Truncation](../intro-to-graphs.md#problem-6-no-context)
+- [Dashboard Design Principles](../intro-to-graphs.md#part-7-dashboard-design-principles)
+- [Common Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)
+
+[line-variations]: image/line-chart/1768738441756.png

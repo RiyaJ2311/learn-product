@@ -314,5 +314,5 @@ Fail when:
 - [Chart Selection Guide](../intro-to-graphs.md#part-6-graph-types-reference)
 
 **Related Concepts:**
-- [Color Discipline](../intro-to-graphs.md#3-color-discipline) — Sequential and categorical colors
-- [Visual Hierarchy](../intro-to-graphs.md#2-visual-hierarchy) — Most important at bottom
+- [Dashboard Design Principles](../intro-to-graphs.md#part-7-dashboard-design-principles) — Color and visual hierarchy
+- [Common Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)

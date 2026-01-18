@@ -315,5 +315,5 @@ When in doubt, ask: "Do I need to see Plan A next to Plan B in the same category
 - [Chart Type Selection](../intro-to-graphs.md#part-6-graph-types-reference) — When to use which
 
 **Related Concepts:**
-- [Color Discipline](../intro-to-graphs.md#3-color-discipline) — Consistent colors across charts
-- [Visual Hierarchy](../intro-to-graphs.md#2-visual-hierarchy) — Spacing and grouping
+- [Dashboard Design Principles](../intro-to-graphs.md#part-7-dashboard-design-principles) — Color and visual hierarchy
+- [Common Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)

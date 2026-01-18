@@ -1,26 +1,29 @@
 # Cohort/Retention Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
+**← [Back to Graphs &amp; Dashboard Design](../intro-to-graphs.md)**
 
-The retention chart answers product's most existential question: "Do users come back?" — showing how cohorts behave over time.
+The retention chart answers product's most existential question: "Do users come back?" showing how cohorts behave over time.
 
 ---
 
 ## When to Use a Cohort/Retention Chart
 
 **Perfect for:**
+
 - User retention tracking (Day 1, Day 7, Day 30)
 - Cohort comparison (Jan signups vs Feb signups)
 - Product stickiness measurement
 - Feature adoption persistence
 
 **Questions it answers:**
+
 - "Do users come back after Day 1, Day 7, Day 30?"
 - "Is retention improving for recent cohorts?"
 - "Which cohort had the best retention?"
 - "When do most users churn?"
 
 **Not ideal for:**
+
 - Overall trends (use [line chart](./line-chart.md))
 - Single metric tracking (use [KPI card](./kpi-card.md))
 - Non-time-based analysis
@@ -32,6 +35,7 @@ The retention chart answers product's most existential question: "Do users come 
 ### 1. Cohorts on Y-Axis, Time Periods on X-Axis
 
 **Standard layout:**
+
 ```
 Cohort        Day 0  Day 1  Day 7  Day 30
 Jan 2025      100%   45%    32%    18%
@@ -41,13 +45,14 @@ Mar 2025      100%   52%    38%    —
 
 ### 2. Show Both % Retention AND Absolute Numbers
 
-| Approach | What to Show | Example |
-|----------|--------------|---------|
-| **Percentage only** | ❌ Misleading | 50% retention |
-| **Count only** | ❌ Hard to compare | 500 users |
-| **Both** | ✅ Complete picture | 50% (500 users) |
+| Approach                  | What to Show        | Example         |
+| ------------------------- | ------------------- | --------------- |
+| **Percentage only** | ❌ Misleading       | 50% retention   |
+| **Count only**      | ❌ Hard to compare  | 500 users       |
+| **Both**            | ✅ Complete picture | 50% (500 users) |
 
 **Why both matter:**
+
 - 80% retention of 10 users = 8 users (not meaningful)
 - 20% retention of 100,000 users = 20,000 users (very meaningful)
 
@@ -64,6 +69,7 @@ Mar 2025      100%   52%    38%    —
 ### 4. Label Time Periods Consistently
 
 **Common patterns:**
+
 - **Daily retention**: Day 0, Day 1, Day 7, Day 14, Day 30
 - **Weekly retention**: Week 0, Week 1, Week 4, Week 12
 - **Monthly retention**: Month 0, M1, M3, M6, M12
@@ -75,6 +81,7 @@ Mar 2025      100%   52%    38%    —
 ### Issue 1: Comparing Different Sized Cohorts
 
 **Problem**:
+
 ```
 Cohort A: 100 users → 90% retention (90 users)
 Cohort B: 10,000 users → 40% retention (4,000 users)
@@ -89,6 +96,7 @@ Cohort A looks "better" but Cohort B has 44× more retained users!
 **Problem**: Percentages shown without initial cohort count
 
 **Fix**: Add a "Size" column:
+
 ```
 Cohort      Size    Day 0  Day 1  Day 7
 Jan 2025    10K     100%   45%    32%
@@ -100,6 +108,7 @@ Feb 2025    50      100%   80%    70%  ← Small cohort!
 **Problem**: Showing Day 0 through Day 365 (366 columns!)
 
 **Fix**: Use strategic intervals:
+
 - Days 0, 1, 7, 14, 30 (first month)
 - Weeks 4, 8, 12 (months 2-3)
 - Months 6, 12 (long-term)
@@ -109,6 +118,7 @@ Feb 2025    50      100%   80%    70%  ← Small cohort!
 **Problem**: Recent cohorts don't have Day 30 data yet, but cell shows 0%
 
 **Fix**: Use "—" or gray for not-yet-available data:
+
 ```
 Cohort        Day 0  Day 1  Day 7  Day 30
 Jan 2025      100%   45%    32%    18%
@@ -118,7 +128,7 @@ Mar 2025      100%   52%    38%    —      ← Too early
 
 ---
 
-## Cohort Chart Variations
+## Cohort Chart Variations![1768740039570](image/cohort-retention/1768740039570.png)
 
 ### Classic Retention Table
 
@@ -152,6 +162,7 @@ W4 Jan      100%   50%    38%    22%
 ### Unbounded Retention (N-Day)
 
 Instead of calendar cohorts, track "Days since signup":
+
 - Day 0 retention = 100% (by definition)
 - Day 1 retention = All users who returned 1 day after signup
 - Day 7 retention = All users who returned 7 days after signup
@@ -162,11 +173,14 @@ Instead of calendar cohorts, track "Days since signup":
 
 ## Labeling Best Practices
 
+![1768740097167](image/cohort-retention/1768740097167.png)
+
 ### Title Formula
 
 **Pattern**: [Cohort Type] Retention ([Time Range])
 
 Examples:
+
 - "Weekly Signup Cohorts: 30-Day Retention"
 - "Feature Adoption Retention by Month"
 - "User Retention: First 90 Days"
@@ -188,6 +202,7 @@ Examples:
 ## Placement
 
 **By Dashboard Type:**
+
 - **Executive**: Summary only (e.g., "Overall 30-day retention: 22%")
 - **Product**: Critical — full cohort analysis, retention drivers
 - **Growth**: Essential — activation and retention analysis

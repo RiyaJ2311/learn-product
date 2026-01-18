@@ -1,8 +1,8 @@
 # Scatter Plot: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
+**← [Back to Graphs &amp; Dashboard Design](../intro-to-graphs.md)**
 
-The scatter plot reveals relationships between variables — it's the chart that answers "are these two things connected?"
+The scatter plot reveals relationships between variables, it's the chart that answers "are these two things connected?"
 
 ---
 
@@ -10,7 +10,7 @@ The scatter plot reveals relationships between variables — it's the chart that
 
 ### Early Scientific Use (1800s)
 
-While Playfair invented commercial visualization, the scatter plot emerged from **scientific inquiry**. John Herschel and Francis Galton pioneered its use in the 1800s to study relationships between variables — like the correlation between parents' and children's heights.
+While Playfair invented commercial visualization, the scatter plot emerged from **scientific inquiry**. John Herschel and Francis Galton pioneered its use in the 1800s to study relationships between variables like the correlation between parents' and children's heights.
 
 ### Why It's Unique
 
@@ -22,13 +22,13 @@ The scatter plot is the only common chart where **both axes are quantitative var
 
 ### Perfect For:
 
-| Question Type | Example |
-|--------------|---------|
-| **Correlation** | Do more ad spend = more conversions? |
-| **Outlier detection** | Which customers behave differently? |
-| **Clustering** | Are there natural groups in our data? |
-| **Distribution of two variables** | How do price and rating interact? |
-| **Regression analysis** | Can we predict Y from X? |
+| Question Type                           | Example                               |
+| --------------------------------------- | ------------------------------------- |
+| **Correlation**                   | Do more ad spend = more conversions?  |
+| **Outlier detection**             | Which customers behave differently?   |
+| **Clustering**                    | Are there natural groups in our data? |
+| **Distribution of two variables** | How do price and rating interact?     |
+| **Regression analysis**           | Can we predict Y from X?              |
 
 ### Not Ideal For:
 
@@ -40,19 +40,19 @@ The scatter plot is the only common chart where **both axes are quantitative var
 
 ---
 
-## Scatter Plot Variations
+## Scatter Plot Variations![1768739737901](image/scatter-plot/1768739737901.png "scatter-plot-variations")
 
-| Type | Use Case | Example |
-|------|----------|---------|
-| **Basic scatter** | Two variables, one observation per point | Height vs. weight |
-| **Bubble chart** | Third variable encoded as size | Revenue vs. profit, sized by market cap |
-| **Scatter with trendline** | Show correlation direction | Sales vs. marketing spend |
-| **Scatter with categories** | Groups by color | Performance by department |
-| **Scatter matrix** | Multiple variable pairs | All pairs of metrics at once |
+| Type                              | Use Case                                 | Example                                 |
+| --------------------------------- | ---------------------------------------- | --------------------------------------- |
+| **Basic scatter**           | Two variables, one observation per point | Height vs. weight                       |
+| **Bubble chart**            | Third variable encoded as size           | Revenue vs. profit, sized by market cap |
+| **Scatter with trendline**  | Show correlation direction               | Sales vs. marketing spend               |
+| **Scatter with categories** | Groups by color                          | Performance by department               |
+| **Scatter matrix**          | Multiple variable pairs                  | All pairs of metrics at once            |
 
 ---
 
-## Design Principles: What Makes a Beautiful Scatter Plot
+## Design Principles
 
 ### 1. Each Point = One Observation
 
@@ -62,36 +62,37 @@ Unlike other charts, each dot represents a single data point with two values. Ma
 
 ### 2. Axis Choices
 
-| Decision | Recommendation |
-|----------|----------------|
-| **Which variable on X?** | The "cause" or independent variable |
-| **Which on Y?** | The "effect" or dependent variable |
-| **Start at zero?** | Only if meaningful; relationship matters more than absolute values |
-| **Scale** | Linear usually; log if data spans orders of magnitude |
+| Decision                       | Recommendation                                                     |
+| ------------------------------ | ------------------------------------------------------------------ |
+| **Which variable on X?** | The "cause" or independent variable                                |
+| **Which on Y?**          | The "effect" or dependent variable                                 |
+| **Start at zero?**       | Only if meaningful; relationship matters more than absolute values |
+| **Scale**                | Linear usually; log if data spans orders of magnitude              |
 
 ### 3. Point Size and Opacity
 
-| Issue | Solution |
-|-------|----------|
-| **Few points (< 50)** | Larger dots, distinct colors |
-| **Many points (100s)** | Smaller dots, some transparency |
+| Issue                          | Solution                                |
+| ------------------------------ | --------------------------------------- |
+| **Few points (< 50)**    | Larger dots, distinct colors            |
+| **Many points (100s)**   | Smaller dots, some transparency         |
 | **Overplotting (1000s)** | High transparency, hexbins, or sampling |
 
 **Transparency formula**: More points = more transparency
 
 ### 4. Trendlines
 
-| When to Add | When to Skip |
-|-------------|--------------|
-| Pattern isn't obvious | Relationship is already clear |
-| Making a prediction claim | Just exploring data |
-| Showing correlation strength | Pattern is nonlinear/complex |
+| When to Add                  | When to Skip                  |
+| ---------------------------- | ----------------------------- |
+| Pattern isn't obvious        | Relationship is already clear |
+| Making a prediction claim    | Just exploring data           |
+| Showing correlation strength | Pattern is nonlinear/complex  |
 
-**Include R² value** when you add a trendline — it quantifies correlation strength.
+**Include R² value** when you add a trendline, it quantifies correlation strength.
 
 ### 5. Color for Categories
 
 If showing groups:
+
 - Use distinct colors (max 5-7 categories)
 - Ensure colorblind-friendly palette
 - Consider shape as well as color
@@ -100,14 +101,14 @@ If showing groups:
 
 ## Common Issues and How to Fix Them
 
-| Issue | Problem | Fix |
-|-------|---------|-----|
-| **Overplotting** | Too many points overlap, creating a solid blob. Can't see distribution, outliers hidden | Transparency (100-1000 points) · Jittering (categorical variables) · Hexbin/heatmap (10,000+ points) · Sampling (massive datasets) · Size reduction |
-| **Correlation ≠ Causation** | Scatter plots SHOW correlation but don't PROVE causation. Example: Ice cream sales correlate with drowning deaths (both rise in summer) | Never claim causation from correlation alone. Use "X and Y are correlated" ✓ not "X causes Y" ✗ (unless proven through experiment) |
-| **Missing Trendline When Needed** | Relationship exists but isn't obvious from scattered points | Add a trendline with R² value: R² = 0.9 (strong), 0.5 (moderate), 0.1 (weak) |
-| **Wrong Trendline Type** | Fitting a linear trendline to clearly nonlinear data (growth curves, logarithmic relationships) | Match trendline to data pattern: Linear (straight-line) · Polynomial (curves) · Logarithmic (diminishing returns) · None (if complex) |
-| **Axis Scale Manipulation** | Changing axis scales to exaggerate or hide correlation. Example: Stretching Y-axis makes weak correlation look strong | Use consistent scales. Consider showing the same scatter at different aspect ratios to show it's not manipulated |
-| **Too Many Categories** | 10 colors = visual chaos | Limit to 5-7 colors maximum · Group minor categories as "Other" · Use small multiples · Add interactivity to filter |
+| Issue                                   | Problem                                                                                                                                 | Fix                                                                                                                                                     |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Overplotting**                  | Too many points overlap, creating a solid blob. Can't see distribution, outliers hidden                                                 | Transparency (100-1000 points) · Jittering (categorical variables) · Hexbin/heatmap (10,000+ points) · Sampling (massive datasets) · Size reduction |
+| **Correlation ≠ Causation**      | Scatter plots SHOW correlation but don't PROVE causation. Example: Ice cream sales correlate with drowning deaths (both rise in summer) | Never claim causation from correlation alone. Use "X and Y are correlated" ✓ not "X causes Y" ✗ (unless proven through experiment)                    |
+| **Missing Trendline When Needed** | Relationship exists but isn't obvious from scattered points                                                                             | Add a trendline with R² value: R² = 0.9 (strong), 0.5 (moderate), 0.1 (weak)                                                                          |
+| **Wrong Trendline Type**          | Fitting a linear trendline to clearly nonlinear data (growth curves, logarithmic relationships)                                         | Match trendline to data pattern: Linear (straight-line) · Polynomial (curves) · Logarithmic (diminishing returns) · None (if complex)                |
+| **Axis Scale Manipulation**       | Changing axis scales to exaggerate or hide correlation. Example: Stretching Y-axis makes weak correlation look strong                   | Use consistent scales. Consider showing the same scatter at different aspect ratios to show it's not manipulated                                        |
+| **Too Many Categories**           | 10 colors = visual chaos                                                                                                                | Limit to 5-7 colors maximum · Group minor categories as "Other" · Use small multiples · Add interactivity to filter                                  |
 
 ---
 
@@ -117,25 +118,25 @@ If showing groups:
 
 **Pattern**: [Relationship] between [X] and [Y]
 
-| Weak Title | Strong Title |
-|------------|--------------|
-| "Price vs. Quantity" | "Higher prices correlate with lower quantity sold" |
+| Weak Title            | Strong Title                                                   |
+| --------------------- | -------------------------------------------------------------- |
+| "Price vs. Quantity"  | "Higher prices correlate with lower quantity sold"             |
 | "Marketing and Sales" | "Marketing spend shows weak relationship with sales (R²=0.3)" |
 
 ### Axis Labels
 
-| Requirement | Example |
-|-------------|---------|
-| Always label both axes | "Revenue ($K)" not just "Revenue" |
-| Include units | "Revenue ($K)" |
-| Explain transformations | "Revenue (log scale)" |
+| Requirement             | Example                           |
+| ----------------------- | --------------------------------- |
+| Always label both axes  | "Revenue ($K)" not just "Revenue" |
+| Include units           | "Revenue ($K)"                    |
+| Explain transformations | "Revenue (log scale)"             |
 
 ### Point Labels
 
-| Dataset Size | Approach |
-|--------------|----------|
+| Dataset Size                  | Approach                                                                         |
+| ----------------------------- | -------------------------------------------------------------------------------- |
 | **Small (< 20 points)** | Consider labeling individual points (company names, product names, customer IDs) |
-| **Larger datasets** | Label only outliers or interesting points |
+| **Larger datasets**     | Label only outliers or interesting points                                        |
 
 ### Annotations
 
@@ -148,6 +149,7 @@ Call out outliers ("Unusual: Customer X"), clusters ("Enterprise segment"), thre
 ### When to Use
 
 When you have three quantitative variables:
+
 - X-axis: First variable
 - Y-axis: Second variable
 - Bubble size: Third variable
@@ -156,16 +158,16 @@ When you have three quantitative variables:
 
 ### Design Rules
 
-| Rule | Why |
-|------|-----|
-| **Size = area, not radius** | Humans perceive area, not radius |
-| **Include size legend** | Show what sizes mean |
-| **Limit bubbles** | Overlapping bubbles are hard to read |
-| **Consider transparency** | Overlapping bubbles need it |
+| Rule                              | Why                                  |
+| --------------------------------- | ------------------------------------ |
+| **Size = area, not radius** | Humans perceive area, not radius     |
+| **Include size legend**     | Show what sizes mean                 |
+| **Limit bubbles**           | Overlapping bubbles are hard to read |
+| **Consider transparency**   | Overlapping bubbles need it          |
 
 ### Common Mistake
 
-Using radius instead of area for encoding — makes large values look disproportionately huge.
+Using radius instead of area for encoding, makes large values look disproportionately huge.
 
 ---
 
@@ -188,6 +190,7 @@ Before publishing a scatter plot:
 ## Summary
 
 The scatter plot is the relationship detective:
+
 - It shows whether two things move together
 - It reveals outliers and clusters
 - It does NOT prove causation
@@ -201,9 +204,11 @@ Use it when you're asking "are these connected?" Keep it simple, handle overplot
 - **[Bar Chart](./bar-chart.md)** — For comparing categories instead of correlation
 - **[Histogram](./histogram.md)** — For understanding the distribution of individual variables
 - **[Line Chart](./line-chart.md)** — For tracking individual variables over time
-- **[Bubble Chart Variation](../intro-to-graphs.md#bubble-charts-adding-a-third-dimension)** — In this guide, learn how to add a third variable
 
 **Related Concepts**:
-- [Correlation vs. Causation](../intro-to-graphs.md#issue-2-correlation--causation)
-- [Data Storytelling and Insights](../intro-to-graphs.md#part-8-data-storytelling-framework)
-- [Finding Patterns in Data](../intro-to-graphs.md#part-2-why-should-product-people-care-about-graphs)
+
+- [Bubble Chart](../glossary.md#bubble-chart) — Adding a third variable through size encoding
+- [Correlation](../glossary.md#correlation) — Statistical relationship between variables
+- [Causation](../glossary.md#causation) — When one variable directly causes another (correlation ≠ causation)
+- [Data Storytelling Framework](../intro-to-graphs.md#part-8-data-storytelling-framework)
+- [Why Product People Care About Graphs](../intro-to-graphs.md#part-2-why-should-product-people-care-about-graphs)

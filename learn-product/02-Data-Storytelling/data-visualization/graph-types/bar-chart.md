@@ -200,13 +200,14 @@ When in doubt, make it simpler.
 - **[Line Chart](./line-chart.md)** — For showing change over time instead of comparisons
 - **[Pie Chart](./pie-chart.md)** — When comparing part-to-whole relationships
 - **[Histogram](./histogram.md)** — For showing distributions of continuous data
-- **[Stacked Bar Variation](../intro-to-graphs.md#bar-chart-variations)** — In the main guide, learn about stacked and grouped bars
+- **[Stacked Bar Chart](./stacked-bar.md)** — When to use stacked vs grouped bars
+- **[Grouped Bar Chart](./grouped-bar.md)** — Comparing sub-categories side-by-side
 
 **Related Concepts**:
 
-- [Visual Hierarchy in Dashboard Design](../intro-to-graphs.md#2-visual-hierarchy)
-- [Color Discipline Principles](../intro-to-graphs.md#3-color-discipline)
-- [Common Dashboard Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)
+- [Visual Hierarchy in Dashboards](../intro-to-graphs.md#part-7-dashboard-design-principles)
+- [Dashboard Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)
+- [Graph Types Reference](../intro-to-graphs.md#part-6-graph-types-reference)
 
 [horizontal-bar]: image/bar-chart/1768737601473.png
 [horizontal-vs-vertical]: image/bar-chart/1768737646667.png

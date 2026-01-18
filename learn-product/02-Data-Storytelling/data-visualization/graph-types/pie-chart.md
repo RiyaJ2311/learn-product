@@ -200,9 +200,9 @@ When in doubt, choose a bar chart. When you need to show dominance ("Mobile is m
 - **[Bar Chart](./bar-chart.md)** — Better choice for most part-to-whole comparisons, especially with 5+ categories
 - **[Stacked Area Chart](./area-chart.md)** — For showing composition over time
 - **[Line Chart](./line-chart.md)** — For tracking part-to-whole changes across time periods
-- **[Pie Chart Debate](../intro-to-graphs.md#common-issues-and-how-to-fix-them)** — Why statisticians criticize them
+- **[Donut Chart vs Pie](./pie-chart.md#the-donut-chart-alternative)** — Modern alternative to pie charts
 
 **Related Concepts**:
 - [Why Charts Matter for Product People](../intro-to-graphs.md#part-2-why-should-product-people-care-about-graphs)
-- [Graphs Prevent Manipulation](../intro-to-graphs.md#graphs-prevent-manipulation)
-- [Chart Type Selection Guide](../intro-to-graphs.md#part-6-graph-types-reference)
+- [Choosing the Right Chart](../intro-to-graphs.md#part-6-graph-types-reference)
+- [Dashboard Design Principles](../intro-to-graphs.md#part-7-dashboard-design-principles)

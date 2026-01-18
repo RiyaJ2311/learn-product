@@ -288,5 +288,5 @@ When someone glances at your dashboard for 3 seconds, KPI cards are what they se
 - [5-Second Rule](../intro-to-graphs.md#the-5-second-rule) — KPI cards enable this
 
 **Related Concepts:**
-- [Visual Hierarchy](../intro-to-graphs.md#2-visual-hierarchy) — Why KPI cards go top-left
-- [Know Your Audience](../intro-to-graphs.md#part-9-dashboard-personas--design-for-your-audience) — Different personas need different KPIs
+- [Dashboard Personas](../intro-to-graphs.md#part-9-dashboard-personas---design-for-your-audience) — Different personas need different KPIs
+- [Common Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)
