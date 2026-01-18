@@ -197,17 +197,6 @@ Click on any graph type to dive into the detailed guide:
 | **[Area Chart](./graph-types/area-chart.md)** | Volume over time | How has total changed? How do parts contribute? | Filled space below line; stacked or overlapping | Overlapping areas hiding data; too many series |
 | **[Histogram](./graph-types/histogram.md)** | Distribution | What's the shape? Where's the center? How spread? | Bars touch; x-axis is continuous | Confusing with bar chart; wrong bin sizes |
 
-### Detailed Subpages
-
-Each graph type has a dedicated subpage covering:
-- **History & Purpose**: Why was this graph invented?
-- **When to Use**: Specific questions this graph answers best
-- **Design Principles**: How to make it effective and beautiful
-- **Common Issues**: What goes wrong and how to fix it
-- **Labeling Best Practices**: Titles, axes, legends, annotations
-- **Real Examples**: Good and bad examples with analysis
-- **See Also**: Links to related chart types and dashboard concepts
-
 ---
 
 ## Part 7: Dashboard Design Principles
