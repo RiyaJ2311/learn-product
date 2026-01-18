@@ -138,72 +138,14 @@ Add vertical lines to show:
 
 ## Common Issues and How to Fix Them
 
-### Issue 1: Wrong Bin Width
-
-**Problem**: Bin width hides the true distribution
-
-**Example**: Response times with bins of 10 seconds hide that most are under 2 seconds
-
-**Fix**:
-- Experiment with different bin widths
-- Let the data guide you — bins should reveal, not hide
-- Use automated methods as starting point, then adjust
-
----
-
-### Issue 2: Confusing with Bar Charts
-
-**Problem**: Gaps between bars imply categories, not continuous data
-
-**Fix**:
-- Bars must touch in histograms
-- Remove gaps
-- If your data is categorical, use a bar chart instead
-
----
-
-### Issue 3: Non-Zero Y-Axis
-
-**Problem**: Y-axis starts above zero, exaggerating differences
-
-**Fix**: Always start y-axis at zero. The height represents count/frequency — truncating distorts this.
-
----
-
-### Issue 4: Too Few Data Points
-
-**Problem**: Histogram with 15 observations — not enough to show distribution
-
-**Fix**:
-- Need at least 30 observations for meaningful histogram
-- For smaller samples, use dot plots or strip plots
-- Or just list the values
-
----
-
-### Issue 5: Ignoring Outliers
-
-**Problem**: A few extreme values create empty bins and compress the main distribution
-
-**Example**: Response times mostly 1-5 seconds, but a few at 300 seconds — chart shows mostly empty space
-
-**Fix**:
-- Consider separate handling for outliers
-- Note outliers separately: "3 values > 60s not shown"
-- Use log scale for highly skewed data
-- Set reasonable axis limits with annotation
-
----
-
-### Issue 6: Comparing Distributions Poorly
-
-**Problem**: Two histograms with different bin widths or scales — impossible to compare
-
-**Fix**:
-- Use identical bin widths
-- Use identical y-axis scales
-- Consider overlapping histograms with transparency
-- Or use side-by-side with matched scales
+| Issue | Problem | Fix |
+|-------|---------|-----|
+| **Wrong Bin Width** | Bin width hides the true distribution. Example: Response times with bins of 10 seconds hide that most are under 2 seconds | Experiment with different bin widths · Let the data guide you — bins should reveal, not hide · Use automated methods as starting point, then adjust |
+| **Confusing with Bar Charts** | Gaps between bars imply categories, not continuous data | Bars must touch in histograms · Remove gaps · If your data is categorical, use a bar chart instead |
+| **Non-Zero Y-Axis** | Y-axis starts above zero, exaggerating differences | Always start y-axis at zero. The height represents count/frequency — truncating distorts this |
+| **Too Few Data Points** | Histogram with 15 observations — not enough to show distribution | Need at least 30 observations for meaningful histogram · For smaller samples, use dot plots or strip plots · Or just list the values |
+| **Ignoring Outliers** | A few extreme values create empty bins and compress the main distribution. Example: Response times mostly 1-5 seconds, but a few at 300 seconds — chart shows mostly empty space | Consider separate handling for outliers · Note outliers separately: "3 values > 60s not shown" · Use log scale for highly skewed data · Set reasonable axis limits with annotation |
+| **Comparing Distributions Poorly** | Two histograms with different bin widths or scales — impossible to compare | Use identical bin widths · Use identical y-axis scales · Consider overlapping histograms with transparency · Or use side-by-side with matched scales |
 
 ---
 
@@ -220,22 +162,14 @@ Add vertical lines to show:
 
 ### Axis Labels
 
-**X-axis**:
-- Clear units: "Load Time (seconds)"
-- Bin ranges if not obvious from axis
-
-**Y-axis**:
-- "Count" or "Frequency" or "Number of Users"
-- "Density" if normalized
+| Axis | Recommendation |
+|------|----------------|
+| **X-axis** | Clear units: "Load Time (seconds)" · Bin ranges if not obvious from axis |
+| **Y-axis** | "Count" or "Frequency" or "Number of Users" · "Density" if normalized |
 
 ### Annotations
 
-| Annotation | When |
-|------------|------|
-| Mean line | Almost always |
-| Median line | When distribution is skewed |
-| Percentiles | When SLAs or targets exist |
-| Outlier notes | When values excluded |
+Use mean line (almost always), median line (when distribution is skewed), percentiles (when SLAs or targets exist), outlier notes (when values excluded).
 
 ---
 
@@ -266,28 +200,6 @@ When comparing two groups:
 | **Violin plots** | Showing shape across many groups |
 | **Ridge plots** | Many distributions, emphasizing shape |
 | **Small multiples** | Detailed view of each |
-
----
-
-## Real-World Examples
-
-### Good Example: Clear Distribution Story
-
-A histogram showing "Customer Lifetime Value":
-- Right-skewed distribution clearly visible
-- 25 bins showing smooth curve
-- Mean and median marked (mean > median confirms skew)
-- Title: "Most customers worth $50-100, but top 10% account for 60% of value"
-- Annotation: "Long tail: 5% of customers > $500"
-
-### Bad Example: Histogram Problems
-
-A chart with:
-- Gaps between bars (looks like bar chart)
-- Only 5 bins hiding bimodal pattern
-- Y-axis starting at 50
-- No axis labels
-- "Average: 34" as only context (no median)
 
 ---
 

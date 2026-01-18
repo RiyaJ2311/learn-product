@@ -124,79 +124,14 @@ The order of stacking affects readability:
 
 ## Common Issues and How to Fix Them
 
-### Issue 1: Hidden Data in Overlapping Areas
-
-**Problem**: With multiple overlapping series, areas hide each other
-
-**Example**: Three products' revenue over time — the one on top hides the others
-
-**Fix**:
-- Use transparency
-- Use stacked area instead of overlapping
-- Use multiple line charts instead
-- Use small multiples (one area per series)
-
----
-
-### Issue 2: Y-Axis Not Starting at Zero
-
-**Problem**: Truncated axis makes changes look larger than they are
-
-**Why it's worse for area charts**: The filled space is visually interpreted as volume. A truncated axis lies about that volume.
-
-**Fix**: Always start at zero. If you need to show small changes, consider a line chart instead.
-
----
-
-### Issue 3: Too Many Series (Spaghetti)
-
-**Problem**: 8+ stacked series become impossible to distinguish
-
-**Fix**:
-- Group into 3-4 main categories + "Other"
-- Use 100% stacked if proportions matter
-- Small multiples for each series
-- Interactive filtering
-
----
-
-### Issue 4: Misleading Stacked Areas
-
-**Problem**: Middle series appear to grow/shrink due to baseline shifts
-
-**Example**: In a stacked area, Series B looks like it's growing, but it's actually flat — Series A below it is shrinking.
-
-**Fix**:
-- Be aware of this limitation
-- Add annotations to clarify
-- Consider showing each series separately
-- Use 100% stacked if proportions are the story
-
----
-
-### Issue 5: Stream Graphs Without Purpose
-
-**Problem**: Stream graphs (centered stacked areas) look impressive but are even harder to read than stacked areas
-
-**When stream graphs work**:
-- Aesthetics matter more than precision
-- You're showing general flow and change
-- The audience doesn't need exact values
-
-**When to avoid**:
-- Business dashboards requiring decisions
-- Any context where precision matters
-
----
-
-### Issue 6: Confusing Area with Line
-
-**Problem**: Users try to read values from the top of the area as if it were a line
-
-**Fix**:
-- Make sure the area touches zero
-- Add gridlines at meaningful intervals
-- Consider adding data labels at key points
+| Issue | Problem | Fix |
+|-------|---------|-----|
+| **Hidden Data in Overlapping Areas** | With multiple overlapping series, areas hide each other. Example: Three products' revenue over time — the one on top hides the others | Use transparency · Use stacked area instead · Use multiple line charts · Use small multiples (one area per series) |
+| **Y-Axis Not Starting at Zero** | Truncated axis makes changes look larger than they are. The filled space is visually interpreted as volume — a truncated axis lies about that volume | Always start at zero. If you need to show small changes, consider a line chart instead |
+| **Too Many Series (Spaghetti)** | 8+ stacked series become impossible to distinguish | Group into 3-4 main categories + "Other" · Use 100% stacked if proportions matter · Small multiples · Interactive filtering |
+| **Misleading Stacked Areas** | Middle series appear to grow/shrink due to baseline shifts. Example: Series B looks like it's growing, but it's actually flat — Series A below it is shrinking | Be aware of this limitation · Add annotations to clarify · Consider showing each series separately · Use 100% stacked if proportions are the story |
+| **Stream Graphs Without Purpose** | Stream graphs (centered stacked areas) look impressive but are even harder to read than stacked areas | Use when aesthetics matter more than precision, showing general flow, or audience doesn't need exact values. Avoid for business dashboards requiring decisions or when precision matters |
+| **Confusing Area with Line** | Users try to read values from the top of the area as if it were a line | Make sure the area touches zero · Add gridlines at meaningful intervals · Consider adding data labels at key points |
 
 ---
 
@@ -238,28 +173,6 @@ For stacked areas, annotate the total line or specific inflection points.
 | You want visual weight | You want clean precision |
 
 **General rule**: Area charts emphasize "how much." [Line charts](./line-chart.md) emphasize "in which direction."
-
----
-
-## Real-World Examples
-
-### Good Example: Clear Composition Story
-
-A stacked area chart showing "Revenue by Product Line (2020-2024)":
-- 3 product lines in distinct colors
-- Y-axis starts at zero
-- Most important product at bottom
-- Title: "Subscription revenue now accounts for 60% of total"
-- Clean, minimal design
-
-### Bad Example: Area Chart Abuse
-
-A chart with:
-- 8 overlapping (not stacked) series
-- No transparency
-- Y-axis starting at $1M (not zero)
-- Rainbow color palette
-- Decorative gradient fills
 
 ---
 

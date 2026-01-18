@@ -115,63 +115,13 @@ The bottom segment has a **common baseline** (zero), making it easy to compare a
 
 ## Common Issues and How to Fix Them
 
-### Issue 1: Comparing Middle Segments
-
-**Problem**: Trying to compare "Paid" segment across channels when it's in the middle of stack
-
-**Why it's bad**: Middle segments don't share a baseline, making comparison difficult
-
-**Fix**:
-- Move most important segment to bottom
-- Use [grouped bar](./grouped-bar.md) if direct comparison is the goal
-- Add data labels for precision
-
----
-
-### Issue 2: Too Many Segments
-
-**Problem**: 8 segments in different colors = rainbow bar
-
-**Why it's bad**: Can't distinguish colors, can't see patterns
-
-**Fix**:
-- Group small segments as "Other"
-- Show top 4-5, aggregate rest
-- Use filtering or drill-down for details
-
----
-
-### Issue 3: Using Stacked When Total Doesn't Matter
-
-**Problem**: Showing device mix (Mobile vs Desktop) with stacked bars when totals vary wildly
-
-**Example**:
-```
-US:    [Mobile 100K][Desktop 50K] = 150K
-India: [Mobile 5K][Desktop 1K] = 6K
-```
-
-You can't compare mobile % because bar heights differ.
-
-**Fix**: Use [100% stacked bar](#100-stacked-bar) to show composition clearly.
-
----
-
-### Issue 4: No Total Label
-
-**Problem**: Stacked bar without total shown — users have to add up segments mentally
-
-**Fix**: Always label total at top of bar or in data label.
-
----
-
-### Issue 5: Inconsistent Segment Order
-
-**Problem**: Organic is bottom in one bar, top in another
-
-**Why it's bad**: Destroys pattern recognition
-
-**Fix**: Lock segment order across all bars.
+| Issue | Problem | Fix |
+|-------|---------|-----|
+| **Comparing Middle Segments** | Trying to compare "Paid" segment across channels when it's in the middle of stack. Middle segments don't share a baseline, making comparison difficult | Move most important segment to bottom · Use [grouped bar](./grouped-bar.md) if direct comparison is the goal · Add data labels for precision |
+| **Too Many Segments** | 8 segments in different colors = rainbow bar. Can't distinguish colors, can't see patterns | Group small segments as "Other" · Show top 4-5, aggregate rest · Use filtering or drill-down for details |
+| **Using Stacked When Total Doesn't Matter** | Showing device mix (Mobile vs Desktop) with stacked bars when totals vary wildly. Example: US (150K total) vs India (6K total) — can't compare mobile % because bar heights differ | Use [100% stacked bar](#100-stacked-bar) to show composition clearly |
+| **No Total Label** | Stacked bar without total shown — users have to add up segments mentally | Always label total at top of bar or in data label |
+| **Inconsistent Segment Order** | Organic is bottom in one bar, top in another. Destroys pattern recognition | Lock segment order across all bars |
 
 ---
 

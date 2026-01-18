@@ -70,36 +70,14 @@ Sessions per hour
 
 ---
 
-## Common Issues
+## Common Issues and How to Fix Them
 
-### Issue 1: Too Many Colors
-
-**Problem**: Using 10+ color gradations or rainbow spectrum
-
-**Fix**: Use 3-5 color stops maximum
-- Light (low)
-- Medium (moderate)
-- Dark (high)
-
-### Issue 2: No Legend
-
-**Problem**: Colors shown but user doesn't know what they mean
-
-**Fix**: Always include color scale legend with values
-
-### Issue 3: Missing Zero State
-
-**Problem**: Unclear if white/light means "zero" or "low"
-
-**Fix**: Explicitly label zero in legend and use distinct color (white/gray)
-
-### Issue 4: Wrong Color Direction
-
-**Problem**: Dark color for low values, light for high
-
-**Fix**: Use perceptually intuitive mapping:
-- Darker = More intense/higher value
-- Lighter = Less intense/lower value
+| Issue | Problem | Fix |
+|-------|---------|-----|
+| **Too Many Colors** | Using 10+ color gradations or rainbow spectrum | Use 3-5 color stops maximum: Light (low) · Medium (moderate) · Dark (high) |
+| **No Legend** | Colors shown but user doesn't know what they mean | Always include color scale legend with values |
+| **Missing Zero State** | Unclear if white/light means "zero" or "low" | Explicitly label zero in legend and use distinct color (white/gray) |
+| **Wrong Color Direction** | Dark color for low values, light for high | Use perceptually intuitive mapping: Darker = More intense/higher value · Lighter = Less intense/lower value |
 
 ---
 

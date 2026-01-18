@@ -106,65 +106,14 @@ This sounds obvious, but common mistakes:
 
 ## Common Issues and How to Fix Them
 
-### Issue 1: Too Many Slices
-
-**Problem**: 10+ slices create visual chaos
-
-**Example**: Market share pie with 15 competitors — impossible to read
-
-**Fix**:
-- Show top 4-5, group rest as "Other"
-- Switch to horizontal bar chart
-- Use a treemap for many categories
-
----
-
-### Issue 2: 3D Effects
-
-**Problem**: 3D perspective distorts slice sizes. Front slices appear larger than back slices with the same value.
-
-**Why it happens**: Tools like Excel default to 3D for "visual interest"
-
-**Fix**: Remove 3D immediately. It's never appropriate for data.
-
----
-
-### Issue 3: Similar-Sized Slices
-
-**Problem**: 24% vs 26% looks identical in a pie
-
-**Why**: Humans can't accurately compare angles that differ by less than ~10%
-
-**Fix**: Use a bar chart when precision matters, or add data labels.
-
----
-
-### Issue 4: Exploded Slices (Overused)
-
-**Problem**: "Exploding" a slice pulls it away from center, often making the chart harder to read
-
-**When it's okay**: Emphasizing ONE important segment
-**When it's not**: Exploding multiple slices, or using it decoratively
-
----
-
-### Issue 5: Comparing Multiple Pies
-
-**Problem**: Two pie charts side by side — "Compare market share 2023 vs 2024"
-
-**Why it fails**:
-- Each pie has different total, making slices incomparable
-- We can't accurately compare angles across charts
-
-**Fix**: Use grouped bar chart or slope chart.
-
----
-
-### Issue 6: Not Starting at 12 O'Clock
-
-**Problem**: Slices starting at random positions make it hard to use the "quarter" and "half" references
-
-**Fix**: First slice should start at 12 o'clock, moving clockwise.
+| Issue | Problem | Fix |
+|-------|---------|-----|
+| **Too Many Slices** | 10+ slices create visual chaos. Example: Market share pie with 15 competitors — impossible to read | Show top 4-5, group rest as "Other" · Switch to horizontal bar chart · Use a treemap for many categories |
+| **3D Effects** | 3D perspective distorts slice sizes. Front slices appear larger than back slices with the same value. Tools like Excel default to 3D for "visual interest" | Remove 3D immediately. It's never appropriate for data |
+| **Similar-Sized Slices** | 24% vs 26% looks identical in a pie. Humans can't accurately compare angles that differ by less than ~10% | Use a bar chart when precision matters, or add data labels |
+| **Exploded Slices (Overused)** | "Exploding" a slice pulls it away from center, often making the chart harder to read | Okay for emphasizing ONE important segment. Not okay for exploding multiple slices or using it decoratively |
+| **Comparing Multiple Pies** | Two pie charts side by side — "Compare market share 2023 vs 2024". Each pie has different total, making slices incomparable. We can't accurately compare angles across charts | Use grouped bar chart or slope chart |
+| **Not Starting at 12 O'Clock** | Slices starting at random positions make it hard to use the "quarter" and "half" references | First slice should start at 12 o'clock, moving clockwise |
 
 ---
 
@@ -181,26 +130,15 @@ This sounds obvious, but common mistakes:
 
 ### Slice Labels
 
-**Include**:
-- Category name
-- Percentage
-- Absolute value (when relevant)
-
-**Format**: "Mobile: 70% ($2.3M)"
-
-**Position**:
-- Outside the slice for small slices
-- Inside for large slices (if readable)
-- Use leader lines if needed
+| Element | Recommendation |
+|---------|----------------|
+| **Include** | Category name · Percentage · Absolute value (when relevant) |
+| **Format** | "Mobile: 70% ($2.3M)" |
+| **Position** | Outside the slice for small slices · Inside for large slices (if readable) · Use leader lines if needed |
 
 ### When to Use a Legend
 
-Only when:
-- Labels genuinely don't fit
-- Interactive chart (hover for details)
-- Very small display (sparkline-style)
-
-**Even then**, consider if a bar chart would be clearer.
+Only when labels genuinely don't fit, interactive chart (hover for details), or very small display (sparkline-style). **Even then**, consider if a bar chart would be clearer.
 
 ---
 
@@ -226,31 +164,6 @@ Only when:
 | Primary metric | "70% Mobile" |
 | Icon | (for decorative dashboards) |
 | Nothing | Keep it clean |
-
----
-
-## Real-World Examples
-
-### Good Example: Clear Dominance
-
-A pie chart showing "Device Usage":
-- 70% Mobile (blue, large)
-- 25% Desktop (gray)
-- 5% Tablet (light gray)
-- Direct labels on each slice
-- Title: "Mobile accounts for 70% of traffic"
-
-**Why it works**: One slice clearly dominates, 3 slices total, clear story.
-
-### Bad Example: Pie Chart Abuse
-
-A pie chart showing "Feature Usage by Module":
-- 12 slices in rainbow colors
-- Slices range from 5% to 15%
-- Legend at the bottom
-- 3D perspective with shadow
-
-**Why it fails**: Too many slices, similar sizes, 3D distortion, legend instead of labels.
 
 ---
 

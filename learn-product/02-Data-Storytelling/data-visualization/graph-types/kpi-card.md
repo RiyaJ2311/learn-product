@@ -117,76 +117,14 @@ A raw number is meaningless. Always show:
 
 ## Common Issues and How to Fix Them
 
-### Issue 1: Too Many KPI Cards
-
-**Problem**: 15 KPI cards at the top of dashboard — attention is diluted
-
-**Why it's bad**: If everything is important, nothing is important
-
-**Fix**:
-- Limit to 3-5 cards maximum per dashboard
-- Ask: "If I could only show 3 numbers, what would they be?"
-- Group related metrics (revenue, profit, margin as one "Revenue Health" card)
-
----
-
-### Issue 2: No Comparison
-
-**Problem**: Shows "Revenue: ₹4.2M" with no context
-
-**Why it's bad**: Is this good? Is it growing? No way to know.
-
-**Fix**: Always add comparison:
-- "+15% vs last month"
-- "92% of ₹4.5M goal"
-- "↑ from ₹3.6M"
-
----
-
-### Issue 3: Mixing Units Without Clear Labels
-
-**Problem**: Dashboard shows "4.2M" next to "24" next to "3.5%" — what do these mean?
-
-**Fix**:
-- Clear labels: "Revenue: ₹4.2M"
-- Unit in value: "24% conversion"
-- Consistent formatting across all cards
-
----
-
-### Issue 4: Misleading Deltas
-
-**Problem**: Shows "+120%" without context — change from 1 to 2.2, not meaningful
-
-**Fix**:
-- Consider absolute change too: "+120% (+1.2 users)"
-- Add minimum threshold: "Only show % if base > 100"
-- Or show "Too small to compare" for tiny numbers
-
----
-
-### Issue 5: Wrong Comparison Period
-
-**Problem**: Showing "vs yesterday" for metric that's naturally weekly (B2B signups)
-
-**Fix**: Match comparison to metric cadence:
-| Metric Type | Good Comparison |
-|-------------|-----------------|
-| Daily ops (support tickets) | vs yesterday, vs last week |
-| Weekly business (B2B signups) | vs last week, vs last month |
-| Monthly revenue | vs last month, vs last year same month |
-
----
-
-### Issue 6: Color Inversion
-
-**Problem**: Revenue down shown in green, churn down shown in red
-
-**Fix**: Define semantic meaning first:
-- Revenue ↑ = Green, Revenue ↓ = Red
-- Churn ↑ = Red, Churn ↓ = Green
-
-The direction alone doesn't determine color — the impact does.
+| Issue | Problem | Fix |
+|-------|---------|-----|
+| **Too Many KPI Cards** | 15 KPI cards at the top of dashboard — attention is diluted. If everything is important, nothing is important | Limit to 3-5 cards maximum per dashboard · Ask: "If I could only show 3 numbers, what would they be?" · Group related metrics (revenue, profit, margin as one "Revenue Health" card) |
+| **No Comparison** | Shows "Revenue: ₹4.2M" with no context. Is this good? Is it growing? No way to know | Always add comparison: "+15% vs last month" · "92% of ₹4.5M goal" · "↑ from ₹3.6M" |
+| **Mixing Units Without Clear Labels** | Dashboard shows "4.2M" next to "24" next to "3.5%" — what do these mean? | Clear labels: "Revenue: ₹4.2M" · Unit in value: "24% conversion" · Consistent formatting across all cards |
+| **Misleading Deltas** | Shows "+120%" without context — change from 1 to 2.2, not meaningful | Consider absolute change too: "+120% (+1.2 users)" · Add minimum threshold: "Only show % if base > 100" · Or show "Too small to compare" for tiny numbers |
+| **Wrong Comparison Period** | Showing "vs yesterday" for metric that's naturally weekly (B2B signups) | Match comparison to metric cadence: Daily ops → vs yesterday/last week · Weekly business → vs last week/month · Monthly revenue → vs last month/year |
+| **Color Inversion** | Revenue down shown in green, churn down shown in red | Define semantic meaning first: Revenue ↑ = Green, Revenue ↓ = Red · Churn ↑ = Red, Churn ↓ = Green. The direction alone doesn't determine color — the impact does |
 
 ---
 

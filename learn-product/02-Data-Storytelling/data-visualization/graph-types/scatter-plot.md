@@ -100,79 +100,14 @@ If showing groups:
 
 ## Common Issues and How to Fix Them
 
-### Issue 1: Overplotting
-
-**Problem**: Too many points overlap, creating a solid blob
-
-**Why it matters**: Can't see distribution, outliers hidden
-
-**Solutions**:
-| Method | Best For |
-|--------|----------|
-| **Transparency** | Moderate overplotting (100-1000 points) |
-| **Jittering** | Categorical variables causing stacking |
-| **Hexbin/heatmap** | Large datasets (10,000+) |
-| **Sampling** | Massive datasets, if representative |
-| **Size reduction** | Moderate overplotting |
-
----
-
-### Issue 2: Correlation ≠ Causation
-
-**Problem**: Scatter plots SHOW correlation but don't PROVE causation
-
-**Example**: Ice cream sales correlate with drowning deaths (both rise in summer). This doesn't mean ice cream causes drowning.
-
-**Fix**: Never claim causation from correlation alone. Use language carefully:
-- "X and Y are correlated" ✓
-- "X causes Y" ✗ (unless proven through experiment)
-
----
-
-### Issue 3: Missing Trendline When Needed
-
-**Problem**: Relationship exists but isn't obvious from scattered points
-
-**Fix**: Add a trendline with R² value. Explain what it means:
-- R² = 0.9 → Strong relationship
-- R² = 0.5 → Moderate relationship
-- R² = 0.1 → Weak relationship
-
----
-
-### Issue 4: Wrong Trendline Type
-
-**Problem**: Fitting a linear trendline to clearly nonlinear data
-
-**Example**: Growth curves, logarithmic relationships
-
-**Fix**: Match trendline to data pattern:
-- Linear for straight-line relationships
-- Polynomial for curves
-- Logarithmic for diminishing returns
-- Or no trendline if relationship is complex
-
----
-
-### Issue 5: Axis Scale Manipulation
-
-**Problem**: Changing axis scales to exaggerate or hide correlation
-
-**Example**: Stretching Y-axis makes weak correlation look strong
-
-**Fix**: Use consistent scales. Consider showing the same scatter at different aspect ratios to show it's not manipulated.
-
----
-
-### Issue 6: Too Many Categories
-
-**Problem**: 10 colors = visual chaos
-
-**Fix**:
-- Limit to 5-7 colors maximum
-- Group minor categories as "Other"
-- Use small multiples (one scatter per category)
-- Add interactivity to filter
+| Issue | Problem | Fix |
+|-------|---------|-----|
+| **Overplotting** | Too many points overlap, creating a solid blob. Can't see distribution, outliers hidden | Transparency (100-1000 points) · Jittering (categorical variables) · Hexbin/heatmap (10,000+ points) · Sampling (massive datasets) · Size reduction |
+| **Correlation ≠ Causation** | Scatter plots SHOW correlation but don't PROVE causation. Example: Ice cream sales correlate with drowning deaths (both rise in summer) | Never claim causation from correlation alone. Use "X and Y are correlated" ✓ not "X causes Y" ✗ (unless proven through experiment) |
+| **Missing Trendline When Needed** | Relationship exists but isn't obvious from scattered points | Add a trendline with R² value: R² = 0.9 (strong), 0.5 (moderate), 0.1 (weak) |
+| **Wrong Trendline Type** | Fitting a linear trendline to clearly nonlinear data (growth curves, logarithmic relationships) | Match trendline to data pattern: Linear (straight-line) · Polynomial (curves) · Logarithmic (diminishing returns) · None (if complex) |
+| **Axis Scale Manipulation** | Changing axis scales to exaggerate or hide correlation. Example: Stretching Y-axis makes weak correlation look strong | Use consistent scales. Consider showing the same scatter at different aspect ratios to show it's not manipulated |
+| **Too Many Categories** | 10 colors = visual chaos | Limit to 5-7 colors maximum · Group minor categories as "Other" · Use small multiples · Add interactivity to filter |
 
 ---
 
@@ -189,26 +124,22 @@ If showing groups:
 
 ### Axis Labels
 
-- Always label both axes
-- Include units: "Revenue ($K)" not just "Revenue"
-- Explain transformations: "Revenue (log scale)"
+| Requirement | Example |
+|-------------|---------|
+| Always label both axes | "Revenue ($K)" not just "Revenue" |
+| Include units | "Revenue ($K)" |
+| Explain transformations | "Revenue (log scale)" |
 
 ### Point Labels
 
-For small datasets (< 20 points), consider labeling individual points:
-- Company names
-- Product names
-- Customer IDs
-
-For larger datasets, label only outliers or interesting points.
+| Dataset Size | Approach |
+|--------------|----------|
+| **Small (< 20 points)** | Consider labeling individual points (company names, product names, customer IDs) |
+| **Larger datasets** | Label only outliers or interesting points |
 
 ### Annotations
 
-Call out:
-- Outliers ("Unusual: Customer X")
-- Clusters ("Enterprise segment")
-- Thresholds ("Target performance zone")
-- Trendline equation and R²
+Call out outliers ("Unusual: Customer X"), clusters ("Enterprise segment"), thresholds ("Target performance zone"), and trendline equation with R².
 
 ---
 
@@ -235,29 +166,6 @@ When you have three quantitative variables:
 ### Common Mistake
 
 Using radius instead of area for encoding — makes large values look disproportionately huge.
-
----
-
-## Real-World Examples
-
-### Good Example: Clear Correlation
-
-A scatter plot showing "Ad Spend vs. Conversion Rate":
-- Each dot = one campaign
-- Clear positive correlation visible
-- Trendline with R² = 0.72
-- Outliers labeled ("Campaign X: influencer-driven")
-- Title: "Ad spend correlates with conversions (R²=0.72)"
-
-### Bad Example: Chartjunk Scatter
-
-A scatter plot with:
-- 3D perspective
-- Gridlines everywhere
-- 15 category colors
-- No axis labels
-- Points too large, overlapping
-- No trendline despite obvious pattern
 
 ---
 
