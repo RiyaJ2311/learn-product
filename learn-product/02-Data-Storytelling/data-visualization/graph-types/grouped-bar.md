@@ -1,6 +1,6 @@
 # Grouped Bar Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The grouped bar chart answers "How do segments compare across categories?" — essential when you need side-by-side comparisons within each group.
 
@@ -312,8 +312,8 @@ When in doubt, ask: "Do I need to see Plan A next to Plan B in the same category
 **Dashboard Context:**
 - [Marketing Dashboards](../dashboard-personas.md#4-marketing-and-growth-teams-marketing-analytics) — Heavy grouped bar usage
 - [Product Dashboards](../dashboard-personas.md#3-product-managers--designers-product-analytics) — Segment comparisons
-- [Chart Type Selection](../overview.md#part-6-graph-types-reference) — When to use which
+- [Chart Type Selection](../intro-to-graphs.md#part-6-graph-types-reference) — When to use which
 
 **Related Concepts:**
-- [Color Discipline](../overview.md#3-color-discipline) — Consistent colors across charts
-- [Visual Hierarchy](../overview.md#2-visual-hierarchy) — Spacing and grouping
+- [Color Discipline](../intro-to-graphs.md#3-color-discipline) — Consistent colors across charts
+- [Visual Hierarchy](../intro-to-graphs.md#2-visual-hierarchy) — Spacing and grouping

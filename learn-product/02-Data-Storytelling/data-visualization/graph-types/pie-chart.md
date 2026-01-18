@@ -1,6 +1,6 @@
 # Pie Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The pie chart is the most controversial chart in data visualization — beloved by executives, criticized by statisticians. Used correctly, it's powerful. Used poorly, it's misleading.
 
@@ -287,9 +287,9 @@ When in doubt, choose a bar chart. When you need to show dominance ("Mobile is m
 - **[Bar Chart](./bar-chart.md)** — Better choice for most part-to-whole comparisons, especially with 5+ categories
 - **[Stacked Area Chart](./area-chart.md)** — For showing composition over time
 - **[Line Chart](./line-chart.md)** — For tracking part-to-whole changes across time periods
-- **[Pie Chart Debate](../overview.md#common-issues-and-how-to-fix-them)** — Why statisticians criticize them
+- **[Pie Chart Debate](../intro-to-graphs.md#common-issues-and-how-to-fix-them)** — Why statisticians criticize them
 
 **Related Concepts**:
-- [Why Charts Matter for Product People](../overview.md#part-2-why-should-product-people-care-about-graphs)
-- [Graphs Prevent Manipulation](../overview.md#graphs-prevent-manipulation)
-- [Chart Type Selection Guide](../overview.md#part-6-graph-types-reference)
+- [Why Charts Matter for Product People](../intro-to-graphs.md#part-2-why-should-product-people-care-about-graphs)
+- [Graphs Prevent Manipulation](../intro-to-graphs.md#graphs-prevent-manipulation)
+- [Chart Type Selection Guide](../intro-to-graphs.md#part-6-graph-types-reference)

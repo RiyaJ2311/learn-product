@@ -1,6 +1,6 @@
 # KPI Card: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The KPI card is the attention magnet of dashboards — a single number with context that immediately tells you if things are good or bad.
 
@@ -346,9 +346,9 @@ When someone glances at your dashboard for 3 seconds, KPI cards are what they se
 **Dashboard Context:**
 - [Executive Dashboards](../dashboard-personas.md#1-founders--executives-strategic-dashboards) — Heavy KPI card usage
 - [Operational Dashboards](../dashboard-personas.md#6-ops-support-reliability-operational-dashboards) — Real-time KPI cards
-- [Dashboard Design Principles](../overview.md#part-7-dashboard-design-principles) — Where to place KPIs
-- [5-Second Rule](../overview.md#the-5-second-rule) — KPI cards enable this
+- [Dashboard Design Principles](../intro-to-graphs.md#part-7-dashboard-design-principles) — Where to place KPIs
+- [5-Second Rule](../intro-to-graphs.md#the-5-second-rule) — KPI cards enable this
 
 **Related Concepts:**
-- [Visual Hierarchy](../overview.md#2-visual-hierarchy) — Why KPI cards go top-left
-- [Know Your Audience](../overview.md#part-9-dashboard-personas--design-for-your-audience) — Different personas need different KPIs
+- [Visual Hierarchy](../intro-to-graphs.md#2-visual-hierarchy) — Why KPI cards go top-left
+- [Know Your Audience](../intro-to-graphs.md#part-9-dashboard-personas--design-for-your-audience) — Different personas need different KPIs

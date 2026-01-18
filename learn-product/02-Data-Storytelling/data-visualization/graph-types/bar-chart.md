@@ -1,6 +1,6 @@
 # Bar Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The bar chart is the workhorse of data visualization — simple, versatile, and universally understood.
 
@@ -259,9 +259,9 @@ When in doubt, make it simpler.
 - **[Line Chart](./line-chart.md)** — For showing change over time instead of comparisons
 - **[Pie Chart](./pie-chart.md)** — When comparing part-to-whole relationships
 - **[Histogram](./histogram.md)** — For showing distributions of continuous data
-- **[Stacked Bar Variation](../overview.md#bar-chart-variations)** — In the main guide, learn about stacked and grouped bars
+- **[Stacked Bar Variation](../intro-to-graphs.md#bar-chart-variations)** — In the main guide, learn about stacked and grouped bars
 
 **Related Concepts**:
-- [Visual Hierarchy in Dashboard Design](../overview.md#2-visual-hierarchy)
-- [Color Discipline Principles](../overview.md#3-color-discipline)
-- [Common Dashboard Design Mistakes](../overview.md#part-5-common-dashboard-design-mistakes)
+- [Visual Hierarchy in Dashboard Design](../intro-to-graphs.md#2-visual-hierarchy)
+- [Color Discipline Principles](../intro-to-graphs.md#3-color-discipline)
+- [Common Dashboard Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)

@@ -1,6 +1,6 @@
 # Funnel Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The funnel chart answers the most critical product question: "Where do users drop off?" — visualizing sequential step-by-step conversion.
 

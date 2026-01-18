@@ -1,6 +1,6 @@
 # Stacked Bar Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 Stacked bar charts answer "What's the total, and how is it composed?" — showing both the whole and its parts in one visualization.
 
@@ -361,8 +361,8 @@ Fail when:
 **Dashboard Context:**
 - [Product Dashboards](../dashboard-personas.md#3-product-managers--designers-product-analytics) — User composition
 - [Marketing Dashboards](../dashboard-personas.md#4-marketing-and-growth-teams-marketing-analytics) — Channel mix
-- [Chart Selection Guide](../overview.md#part-6-graph-types-reference)
+- [Chart Selection Guide](../intro-to-graphs.md#part-6-graph-types-reference)
 
 **Related Concepts:**
-- [Color Discipline](../overview.md#3-color-discipline) — Sequential and categorical colors
-- [Visual Hierarchy](../overview.md#2-visual-hierarchy) — Most important at bottom
+- [Color Discipline](../intro-to-graphs.md#3-color-discipline) — Sequential and categorical colors
+- [Visual Hierarchy](../intro-to-graphs.md#2-visual-hierarchy) — Most important at bottom

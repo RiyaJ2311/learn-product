@@ -1,6 +1,6 @@
 # Scatter Plot: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The scatter plot reveals relationships between variables — it's the chart that answers "are these two things connected?"
 
@@ -293,9 +293,9 @@ Use it when you're asking "are these connected?" Keep it simple, handle overplot
 - **[Bar Chart](./bar-chart.md)** — For comparing categories instead of correlation
 - **[Histogram](./histogram.md)** — For understanding the distribution of individual variables
 - **[Line Chart](./line-chart.md)** — For tracking individual variables over time
-- **[Bubble Chart Variation](../overview.md#bubble-charts-adding-a-third-dimension)** — In this guide, learn how to add a third variable
+- **[Bubble Chart Variation](../intro-to-graphs.md#bubble-charts-adding-a-third-dimension)** — In this guide, learn how to add a third variable
 
 **Related Concepts**:
-- [Correlation vs. Causation](../overview.md#issue-2-correlation--causation)
-- [Data Storytelling and Insights](../overview.md#part-8-data-storytelling-framework)
-- [Finding Patterns in Data](../overview.md#part-2-why-should-product-people-care-about-graphs)
+- [Correlation vs. Causation](../intro-to-graphs.md#issue-2-correlation--causation)
+- [Data Storytelling and Insights](../intro-to-graphs.md#part-8-data-storytelling-framework)
+- [Finding Patterns in Data](../intro-to-graphs.md#part-2-why-should-product-people-care-about-graphs)

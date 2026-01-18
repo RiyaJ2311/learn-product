@@ -1,6 +1,6 @@
 # Area Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The area chart adds visual weight to trends — when you want to emphasize volume or cumulative totals over time, filling the space below the line creates impact.
 
@@ -297,9 +297,9 @@ When you want visual weight behind your trend, choose area. When you need precis
 - **[Line Chart](./line-chart.md)** — For precise trend tracking without visual emphasis
 - **[Bar Chart](./bar-chart.md)** — For comparing volumes at a single point in time
 - **[Histogram](./histogram.md)** — For understanding the distribution of your data
-- **[Stacked Area Problems](../overview.md#issue-4-misleading-stacked-areas)** — Understand composition distortion
+- **[Stacked Area Problems](../intro-to-graphs.md#issue-4-misleading-stacked-areas)** — Understand composition distortion
 
 **Related Concepts**:
-- [Visual Hierarchy and Weight](../overview.md#2-visual-hierarchy)
-- [Dashboard Composition](../overview.md#part-3-what-is-a-dashboard)
-- [Color Discipline in Stacked Charts](../overview.md#3-color-discipline)
+- [Visual Hierarchy and Weight](../intro-to-graphs.md#2-visual-hierarchy)
+- [Dashboard Composition](../intro-to-graphs.md#part-3-what-is-a-dashboard)
+- [Color Discipline in Stacked Charts](../intro-to-graphs.md#3-color-discipline)

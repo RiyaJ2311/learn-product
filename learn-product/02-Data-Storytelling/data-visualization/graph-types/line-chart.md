@@ -1,6 +1,6 @@
 # Line Chart: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The line chart is the language of trends — when you want to show how something changes over time, nothing communicates better.
 
@@ -274,9 +274,9 @@ When showing trends, the line chart is usually right. Just keep it clean.
 - **[Area Chart](./area-chart.md)** — For emphasizing volume or composition over time
 - **[Bar Chart](./bar-chart.md)** — For comparing categories at a single point
 - **[Histogram](./histogram.md)** — For understanding the distribution of values in your data
-- **[Multi-line Dangers](../overview.md#issue-2-spaghetti-charts)** — Learn about spaghetti chart problems
+- **[Multi-line Dangers](../intro-to-graphs.md#issue-2-spaghetti-charts)** — Learn about spaghetti chart problems
 
 **Related Concepts**:
-- [Data Storytelling Framework](../overview.md#part-8-data-storytelling-framework)
-- [Aspect Ratio in Design](../overview.md#4-the-5-second-rule)
-- [Misleading Axis Truncation](../overview.md#problem-6-no-context)
+- [Data Storytelling Framework](../intro-to-graphs.md#part-8-data-storytelling-framework)
+- [Aspect Ratio in Design](../intro-to-graphs.md#4-the-5-second-rule)
+- [Misleading Axis Truncation](../intro-to-graphs.md#problem-6-no-context)

@@ -1,6 +1,6 @@
 # Table: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 Tables are the workhorses of detailed analysis — when users need exact values, drill-downs, and the ability to search, sort, and export.
 

@@ -1,6 +1,6 @@
 # Histogram: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 The histogram answers the question every product person should ask: "How is this distributed?" It shows the shape of your data — where values cluster, how spread out they are, and whether there are unusual patterns.
 
@@ -323,9 +323,9 @@ Every time you report an average, ask: "What does the distribution look like?" I
 - **[Bar Chart](./bar-chart.md)** — Don't confuse this with bar chart (touching vs. gaps)
 - **[Line Chart](./line-chart.md)** — For tracking how a distribution shifts over time
 - **[Scatter Plot](./scatter-plot.md)** — For understanding relationships between two distributions
-- **[Distribution Shapes Guide](../overview.md#understanding-distribution-shapes)** — In this guide, deeper analysis of distribution patterns
+- **[Distribution Shapes Guide](../intro-to-graphs.md#understanding-distribution-shapes)** — In this guide, deeper analysis of distribution patterns
 
 **Related Concepts**:
-- [Why Averages Mislead](../overview.md#why-shape-matters-for-product)
-- [Central Tendency and Spread](../overview.md#central-tendency--spread)
-- [Data Insights for Product Decisions](../overview.md#part-2-why-should-product-people-care-about-graphs)
+- [Why Averages Mislead](../intro-to-graphs.md#why-shape-matters-for-product)
+- [Central Tendency and Spread](../intro-to-graphs.md#central-tendency--spread)
+- [Data Insights for Product Decisions](../intro-to-graphs.md#part-2-why-should-product-people-care-about-graphs)

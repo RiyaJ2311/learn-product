@@ -1,6 +1,6 @@
 # Heatmap: The Complete Guide
 
-**← [Back to Graphs & Dashboard Design](../overview.md)**
+**← [Back to Graphs & Dashboard Design](../intro-to-graphs.md)**
 
 A heatmap reveals patterns and intensity through color — showing when, where, and how much activity occurs across two dimensions.
 

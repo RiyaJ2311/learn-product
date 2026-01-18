@@ -1,6 +1,6 @@
 # Dashboard Personas: Designing for Your Audience
 
-**← [Back to Graphs & Dashboard Design](./overview.md)**
+**← [Back to Graphs & Dashboard Design](./intro-to-graphs.md)**
 
 Different people in your organization have different needs from dashboards. Before you build, ask: "Who is this for?" The answer determines everything — from chart types to update frequency to layout.
 
@@ -104,31 +104,6 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 | **[Top Issues Table](./graph-types/table.md)** | What's breaking | Top error events, top drop-off points | Problem prioritization |
 | **[Line Charts](./graph-types/line-chart.md)** | Trends | Activation over time by segment | Change over time |
 
-#### Questions They Ask
-
-- Where did 20% of our users drop off?
-- Which segment has best retention?
-- Did the onboarding redesign increase activation?
-- What are the top error events blocking users?
-- Should we prioritize mobile or web?
-
-#### What to Avoid
-
-- ❌ Only showing aggregate KPIs without breakdown
-- ❌ Complex calculations people need to understand
-- ❌ Missing context (what changed at this date?)
-- ❌ Funnel funnels without drop-off highlighting
-
-#### Design Vibe
-
-**"Here's what changed, where, why, and what should we do next"**
-
-- KPI at top with clear context
-- One main narrative chart
-- Secondary breakdown charts
-- Annotations showing important events (launch, change, etc.)
-- Clear colors: Green (good), Red (bad), Gray (neutral)
-
 #### Sample Layout
 
 ```
@@ -184,33 +159,6 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 | **[Histogram](./graph-types/histogram.md)** | Distribution | Time-to-activate, session duration | Distribution analysis |
 | **[Event Tables](./graph-types/table.md)** | Raw data for debugging | Last 100 sessions, last 100 errors | Debugging |
 | **[Scatter Plots](./graph-types/scatter-plot.md)** | Correlations | Engagement vs. retention | Relationship discovery |
-
-#### Questions They Ask
-
-- Where is the biggest drop-off?
-- Which segment has the worst experience?
-- Did we improve activation after the redesign?
-- What behavior predicts long-term retention?
-- Which users are at risk of churning?
-- Do power users differ in their first session?
-
-#### What to Avoid
-
-- ❌ Aggregate metrics without segmentation
-- ❌ Missing drill-down capability
-- ❌ Tables with hundreds of rows (too much data)
-- ❌ Charts without filters
-- ❌ No way to compare segments
-
-#### Design Vibe
-
-**Lots of filters and drill-downs, but organized and scannable.**
-
-- Multiple sections for different questions
-- Heavy use of segmentation
-- Comparison views side-by-side
-- Event tables for detailed analysis
-- Download/export capability
 
 #### Sample Layout
 
@@ -276,30 +224,6 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 | **Creative Performance [Table](./graph-types/table.md)** | Which ads work | Ad set, creative, CTR, CVR, CPC | Ad optimization |
 | **Geo Breakdown [Bars](./graph-types/bar-chart.md)** | Geographic performance | US, EU, APAC | Market comparison |
 
-#### Questions They Ask
-
-- Which channel has the best ROAS?
-- Is spend increasing while ROAS decreasing?
-- Which geographic market should we expand?
-- What's the lifetime value by channel?
-- Should we keep running this campaign?
-
-#### What to Avoid
-
-- ❌ Not showing spend alongside conversions
-- ❌ Ignoring long-term value (only showing first-day metrics)
-- ❌ Comparing channels with different time horizons
-- ❌ Missing unit economics
-
-#### Design Vibe
-
-**Comparison-heavy, efficiency-focused, data-driven.**
-
-- Side-by-side channel comparisons
-- Efficiency metrics prominent (CAC, ROAS)
-- Sortable tables for "top performers"
-- Often includes financial metrics
-
 ---
 
 ### 5. Sales & Success Teams: GTM Dashboards
@@ -330,30 +254,6 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 | **Churn Risk [Table](./graph-types/table.md)** | Action-needed | High-risk accounts with reason | Retention actions |
 | **Rep Performance [Bars](./graph-types/bar-chart.md)** | Who's closing | Revenue per rep, deal count | Team performance |
 
-#### Questions They Ask
-
-- What's in my pipeline this month?
-- Is this account at risk?
-- How long will this deal take?
-- Who's my top performer?
-- What's holding up this deal?
-
-#### What to Avoid
-
-- ❌ Too many filters (sales wants quick action, not exploration)
-- ❌ Complex calculations
-- ❌ Missing "next step" indication
-- ❌ Outdated data
-
-#### Design Vibe
-
-**Action-oriented, very simple, table-heavy.**
-
-- Large cards for critical deals
-- Heavy use of alerts (red for risk)
-- Easy export to CRM
-- Minimal charts, maximum tables
-
 ---
 
 ### 6. Ops, Support, Reliability: Operational Dashboards
@@ -383,30 +283,6 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 | **[Bar Charts](./graph-types/bar-chart.md)** | Top issues | Top error categories | Issue prioritization |
 | **Live [Tables](./graph-types/table.md)** | Action needed | Tickets in queue, assigned to whom | Task assignment |
 | **Status by System** | Green/yellow/red | Service health, dependency health | System health |
-
-#### Questions They Ask
-
-- Are we meeting SLAs?
-- How many support tickets in queue?
-- What's the current incident status?
-- Which system is failing?
-
-#### What to Avoid
-
-- ❌ Anything that requires thinking
-- ❌ Historical trends (they need now)
-- ❌ Multiple pages (everything on one screen)
-- ❌ Unclear colors or symbols
-
-#### Design Vibe
-
-**Fast scanning, strong highlights, minimal thinking.**
-
-- Large red alerts at top
-- Current metrics in huge numbers
-- One screen — no scrolling
-- Refresh every 10-30 seconds
-- High contrast colors
 
 #### Sample Layout
 
@@ -460,32 +336,6 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 | **Forecasting** | Predictions | Revenue forecast with confidence intervals | Future planning |
 | **Data Quality [Tables](./graph-types/table.md)** | Trust | Last update time, data freshness, anomalies | Data reliability |
 
-#### Questions They Ask
-
-- Is there a relationship between X and Y?
-- Which metric is most predictive?
-- How does revenue break down by cohort?
-- Where's the data quality issue?
-- Can we forecast next quarter?
-
-#### What to Avoid
-
-- ❌ Inconsistent definitions across dashboards
-- ❌ Unexplained outliers
-- ❌ Missing drill-down capability
-- ❌ Data that can't be traced to source
-- ❌ Dashboards without update frequency noted
-
-#### Design Vibe
-
-**Consistent, comprehensive, highly reliable.**
-
-- Very clear definitions
-- Standardized color scheme across all dashboards
-- Notes about data freshness
-- Version control for metrics
-- Heavy use of drill-downs and filters
-
 ---
 
 ### 8. Customers (External Dashboards): Self-Serve Analytics
@@ -514,31 +364,6 @@ Quick decision: Does your user have 30 seconds or 30 minutes?
 | **Simple Breakdown [Bars](./graph-types/bar-chart.md)** | What's driving value | By feature, by team, by project | Value drivers |
 | **Health Score** | Is it working? | "You're in the 75th percentile" | Benchmarking |
 | **Export Button** | For reporting | CSV, PDF export | Sharing |
-
-#### Questions They Ask
-
-- How much am I using this?
-- Am I getting value?
-- Can I share this with my boss?
-- What's my usage compared to others?
-
-#### What to Avoid
-
-- ❌ Complex product terminology
-- ❌ Too many options / filters
-- ❌ Explanations of how product works (they know)
-- ❌ Needing to log in multiple times
-- ❌ Data that contradicts their understanding
-
-#### Design Vibe
-
-**Simple, friendly, trustworthy.**
-
-- Very clean, minimal
-- Percentile comparisons ("You're in top 20%")
-- Encouraging tone
-- Easy export
-- Mobile-friendly
 
 #### Sample Layout
 
@@ -617,12 +442,12 @@ START: Who is your primary audience?
 - [Pie Charts](./graph-types/pie-chart.md) — Executives and Customers for part-to-whole
 
 **Related Dashboard Concepts**:
-- [Dashboard Design Principles](./overview.md#part-7-dashboard-design-principles)
-- [Dashboard Personas Intro](./overview.md#part-9-dashboard-personas--design-for-your-audience)
-- [The 5-Second Rule](./overview.md#the-5-second-rule)
-- [Common Dashboard Design Mistakes](./overview.md#part-5-common-dashboard-design-mistakes)
-- [Data Storytelling Framework](./overview.md#part-8-data-storytelling-framework)
-- [Graph Types Reference](./overview.md#part-6-graph-types-reference)
+- [Dashboard Design Principles](./intro-to-graphs.md#part-7-dashboard-design-principles)
+- [Dashboard Personas Intro](./intro-to-graphs.md#part-9-dashboard-personas--design-for-your-audience)
+- [The 5-Second Rule](./intro-to-graphs.md#the-5-second-rule)
+- [Common Dashboard Design Mistakes](./intro-to-graphs.md#part-5-common-dashboard-design-mistakes)
+- [Data Storytelling Framework](./intro-to-graphs.md#part-8-data-storytelling-framework)
+- [Graph Types Reference](./intro-to-graphs.md#part-6-graph-types-reference)
 
 ---
 
