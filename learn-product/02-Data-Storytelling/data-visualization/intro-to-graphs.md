@@ -187,17 +187,6 @@ Click on any graph type to dive into the detailed guide:
 | **[Heatmap](./graph-types/heatmap.md)** | Patterns and intensity | When/where is activity concentrated? | Color shows intensity; 2D grid | Too many colors; no legend; wrong color scale |
 | **[Cohort/Retention](./graph-types/cohort-retention.md)** | User retention over time | Do users come back after Day 1, 7, 30? | Cohorts × time periods; % + absolute numbers | Comparing different-sized cohorts; no absolute values |
 
-### Detailed Subpages
-
-Each graph type has a dedicated subpage covering:
-- **History & Purpose**: Why was this graph invented?
-- **When to Use**: Specific questions this graph answers best
-- **Design Principles**: How to make it effective and beautiful
-- **Common Issues**: What goes wrong and how to fix it
-- **Labeling Best Practices**: Titles, axes, legends, annotations
-- **Real Examples**: Good and bad examples with analysis
-- **See Also**: Links to related chart types and dashboard concepts
-
 ---
 
 ## Part 7: Dashboard Design Principles
