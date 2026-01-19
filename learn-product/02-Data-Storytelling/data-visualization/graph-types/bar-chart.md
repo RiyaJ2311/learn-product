@@ -132,7 +132,7 @@ The bar chart leverages one of our strongest visual abilities: **comparing lengt
 
 ## Labeling Best Practices
 
-![1768738227797](image/bar-chart/1768738227797.png)
+![Labeling Best Practices](../images/bar-chart-labeling-best-practices.png)
 
 ### Title Formula
 
@@ -209,6 +209,6 @@ When in doubt, make it simpler.
 - [Dashboard Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)
 - [Graph Types Reference](../intro-to-graphs.md#part-6-graph-types-reference)
 
-[horizontal-bar]: image/bar-chart/1768737601473.png
-[horizontal-vs-vertical]: image/bar-chart/1768737646667.png
-[bar-variations]: image/bar-chart/1768738023190.png
+[horizontal-bar]: ../images/bar-chart-order-matters.png
+[horizontal-vs-vertical]: ../images/bar-chart-horizontal-vs-vertical.png
+[bar-variations]: ../images/bar-chart-variations.png

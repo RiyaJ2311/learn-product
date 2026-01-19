@@ -128,7 +128,9 @@ Mar 2025      100%   52%    38%    —      ← Too early
 
 ---
 
-## Cohort Chart Variations![1768740039570](image/cohort-retention/1768740039570.png)
+## Cohort Chart Variations
+
+![Cohort Chart Variations](../images/cohort-retention-chart-variations.png)
 
 ### Classic Retention Table
 
@@ -173,7 +175,7 @@ Instead of calendar cohorts, track "Days since signup":
 
 ## Labeling Best Practices
 
-![1768740097167](image/cohort-retention/1768740097167.png)
+![Labeling Best Practices](../images/cohort-retention-labeling-best-practices.png)
 
 ### Title Formula
 

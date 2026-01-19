@@ -119,7 +119,7 @@ The angle of lines communicates rate of change. A steep slope feels dramatic; a 
 
 ## Labeling Best Practices
 
-![1768738613384](image/line-chart/1768738613384.png)
+![Labeling Best Practices](../images/line-chart-labeling-best-practices.png)
 
 ### Title Formula
 
@@ -190,4 +190,4 @@ When showing trends, the line chart is usually right. Just keep it clean.
 - [Dashboard Design Principles](../intro-to-graphs.md#part-7-dashboard-design-principles)
 - [Common Design Mistakes](../intro-to-graphs.md#part-5-common-dashboard-design-mistakes)
 
-[line-variations]: image/line-chart/1768738441756.png
+[line-variations]: ../images/line-chart-variations.png

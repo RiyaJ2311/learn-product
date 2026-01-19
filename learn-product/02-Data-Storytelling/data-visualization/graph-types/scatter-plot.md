@@ -40,7 +40,9 @@ The scatter plot is the only common chart where **both axes are quantitative var
 
 ---
 
-## Scatter Plot Variations![1768739737901](image/scatter-plot/1768739737901.png "scatter-plot-variations")
+## Scatter Plot Variations
+
+![Scatter Plot Variations](../images/scatter-plot-variations.png "scatter-plot-variations")
 
 | Type                              | Use Case                                 | Example                                 |
 | --------------------------------- | ---------------------------------------- | --------------------------------------- |

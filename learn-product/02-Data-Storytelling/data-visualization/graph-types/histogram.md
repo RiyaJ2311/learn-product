@@ -14,7 +14,7 @@ The histogram was introduced by statistician Karl Pearson in 1895. Unlike Playfa
 
 ### Why It's Essential
 
-![1768739258943](image/histogram/1768739258943.png "histograms-intro")
+![Why It's Essential](../images/histogram-why-essential.png "histograms-intro")
 
 Most metrics aren't just a single number. "Average session time is 5 minutes" hides crucial information:
 
@@ -65,7 +65,7 @@ The histogram reveals this hidden structure.
 
 ### Common Patterns
 
-![1768739476907](image/histogram/1768739476907.png)
+![Common Patterns](../images/histogram-common-patterns.png)
 
 | Shape                         | What It Means                           | Example                 |
 | ----------------------------- | --------------------------------------- | ----------------------- |
@@ -161,7 +161,7 @@ Add vertical lines to show:
 
 ## Labeling Best Practices
 
-![1768739636412](image/histogram/1768739636412.png)
+![Labeling Best Practices](../images/histogram-labeling-best-practices.png)
 
 ### Title Formula
 
@@ -187,7 +187,7 @@ Use mean line (almost always), median line (when distribution is skewed), percen
 
 ## Comparing Distributions
 
-![1768739694613](image/histogram/1768739694613.png)
+![Comparing Distributions](../images/histogram-comparing-distributions.png)
 
 ### Overlapping Histograms
 

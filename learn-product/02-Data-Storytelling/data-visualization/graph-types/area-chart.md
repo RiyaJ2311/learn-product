@@ -40,7 +40,7 @@ A line chart shows direction. An area chart shows direction AND volume. The fill
 
 ## Area Chart Variations
 
-![1768739106735](image/area-chart/1768739106735.png "area chart variations")
+![Area Chart Variations](../images/area-chart-variations.png "area chart variations")
 
 | Type                        | Use Case                | Key Feature                       |
 | --------------------------- | ----------------------- | --------------------------------- |
@@ -143,7 +143,7 @@ The order of stacking affects readability:
 
 ## Labeling Best Practices
 
-![1768739149716](image/area-chart/1768739149716.png "how-to-define-area-charts")
+![Labeling Best Practices](../images/area-chart-labeling-best-practices.png "how-to-define-area-charts")
 
 ### Title Formula
 
