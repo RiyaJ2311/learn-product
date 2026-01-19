@@ -1,10 +1,10 @@
 # Agent Patterns & Architectures
 
-## 2-Minute Overview
+## Quick Take
 
 Not all agents are built the same. Different patterns suit different problems. This chapter covers the most important agent architectures and when to use each.
 
-**The key insight:** The pattern you choose determines how your agent thinks, plans, and recovers from errors.
+**Remember:** The pattern you choose determines how your agent thinks, plans, and recovers from errors.
 
 ---
 
@@ -352,7 +352,7 @@ FINAL: [combined answer]
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **ReAct is most flexible** — Good default for dynamic tasks
 2. **Plan-Execute is most predictable** — Good for structured workflows

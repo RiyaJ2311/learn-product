@@ -1,10 +1,10 @@
 # Advanced Prompt Engineering
 
-## 2-Minute Overview
+## Quick Take
 
 You've learned the basics of prompting. Now let's go deeper. This chapter covers advanced techniques that professional AI builders use to get consistent, high-quality results.
 
-**The key insight:** The difference between okay and excellent AI output often comes down to prompt structure, not model choice.
+**Remember:** The difference between okay and excellent AI output often comes down to prompt structure, not model choice.
 
 ---
 
@@ -421,7 +421,7 @@ When your prompt isn't working:
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **System prompts set the stage** — Define role, rules, and format once
 2. **Few-shot examples teach patterns** — Show, don't just tell

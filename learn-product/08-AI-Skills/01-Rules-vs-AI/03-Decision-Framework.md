@@ -1,10 +1,10 @@
 # The Decision Framework
 
-## 2-Minute Overview
+## Quick Take
 
 Now that you understand when rules work and when AI works, you need a practical framework to make the call. This chapter gives you a step-by-step process you can use for any feature decision.
 
-**The key insight:** The decision isn't always binary. Often the best solution combines rules and AI in a hybrid approach.
+**Remember:** The decision isn't always binary. Often the best solution combines rules and AI in a hybrid approach.
 
 ---
 
@@ -361,7 +361,7 @@ Use this for your next feature decision:
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Use the 5-question framework** for consistent decisions
 2. **Hybrid approaches often win**—combine strengths of both

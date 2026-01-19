@@ -1,10 +1,10 @@
 # Chain-of-Thought Reasoning
 
-## 2-Minute Overview
+## Quick Take
 
 Humans solve complex problems by thinking step-by-step. AI can too—if you ask it correctly. **Chain-of-thought (CoT)** prompting makes AI show its reasoning, leading to better answers and explainable decisions.
 
-**The key insight:** Asking AI to "think step by step" dramatically improves performance on complex tasks.
+**Remember:** Asking AI to "think step by step" dramatically improves performance on complex tasks.
 
 ---
 
@@ -376,7 +376,7 @@ Problem: [Your problem]
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **"Think step by step" is magic** — Simple addition, big improvement
 2. **CoT shows the work** — Enables debugging and trust

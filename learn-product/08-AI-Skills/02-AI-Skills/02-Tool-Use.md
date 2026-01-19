@@ -1,10 +1,10 @@
 # Tool Use (Function Calling)
 
-## 2-Minute Overview
+## Quick Take
 
 What if AI could do more than just generate text? What if it could check the weather, search a database, send emails, or book meetings? **Tool use** (also called function calling) gives AI the ability to take actions in the real world.
 
-**The key insight:** Tool use transforms AI from a text generator into an assistant that can actually do things.
+**Remember:** Tool use transforms AI from a text generator into an assistant that can actually do things.
 
 ---
 
@@ -387,7 +387,7 @@ AI: [Calls delete_account tool]
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Tools give AI superpowers** — Access to data and actions
 2. **AI suggests, you execute** — Keep control of actual actions

@@ -1,10 +1,10 @@
 # Memory & State Management
 
-## 2-Minute Overview
+## Quick Take
 
 Agents need to remember what happened—previous messages, tool results, decisions made, and facts learned. **Memory management** is how you handle the limited context window while maintaining coherent long-running conversations.
 
-**The key insight:** Context windows are finite. Smart memory management lets agents work on complex tasks without losing important information.
+**Remember:** Context windows are finite. Smart memory management lets agents work on complex tasks without losing important information.
 
 ---
 
@@ -437,7 +437,7 @@ Track token counts to predict issues.
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Memory is finite** — Plan for context limits
 2. **Multiple strategies** — Sliding window, summarization, retrieval

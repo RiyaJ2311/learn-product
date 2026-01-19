@@ -1,10 +1,10 @@
 # Multimodal AI
 
-## 2-Minute Overview
+## Quick Take
 
 AI isn't limited to text anymore. Modern models can see images, understand documents, and work with multiple types of content simultaneously. This chapter covers how to leverage **multimodal capabilities** in your products.
 
-**The key insight:** The same AI that writes text can now analyze images, charts, screenshots, and documents—opening up entirely new product possibilities.
+**Remember:** The same AI that writes text can now analyze images, charts, screenshots, and documents—opening up entirely new product possibilities.
 
 ---
 
@@ -438,7 +438,7 @@ the text to AI for understanding and analysis.
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Vision opens new possibilities** — Receipts, documents, UIs, charts
 2. **Context matters even more** — Tell AI what the image is and what you need

@@ -1,10 +1,10 @@
 # What is AI?
 
-## 2-Minute Overview
+## Quick Take
 
-"Artificial Intelligence" is one of the most misunderstood terms in tech. This chapter cuts through the buzzwords and gives you a clear mental model of what AI actually is, how it evolved, and where different technologies fit.
+"Artificial Intelligence" is one of the most misunderstood terms in tech. Here's a clear mental model of what AI actually is, how it evolved, and where different technologies fit.
 
-**The key insight:** AI isn't one thing—it's a Russian nesting doll of technologies, each building on the last.
+**Remember:** AI isn't one thing—it's a Russian nesting doll of technologies, each building on the last.
 
 ---
 
@@ -55,7 +55,7 @@
 - Tesla autopilot (vision + decision AI)
 - ChatGPT writing essays (language generation AI)
 
-**Key insight:** AI is a broad umbrella. A calculator isn't AI, but a spam filter is.
+**Note:** AI is a broad umbrella. A calculator isn't AI, but a spam filter is.
 
 ---
 
@@ -77,7 +77,7 @@ Human provides examples → Computer finds patterns → Computer makes predictio
 - Fraud detection (learned from past fraud cases)
 - Email spam filters (learned from marked spam)
 
-**Key insight:** ML is powerful because humans don't have to figure out all the rules—the machine discovers them.
+**Note:** ML is powerful because humans don't have to figure out all the rules—the machine discovers them.
 
 ---
 
@@ -104,7 +104,7 @@ Human provides examples → Computer finds patterns → Computer makes predictio
 
 **Why "deep"?** Many layers (sometimes hundreds) stacked together.
 
-**Key insight:** Deep learning enabled the AI breakthroughs of the last decade—image recognition, speech recognition, and language models.
+**Note:** Deep learning enabled the AI breakthroughs of the last decade—image recognition, speech recognition, and language models.
 
 ---
 
@@ -122,11 +122,11 @@ Output: "mat" (highest probability)
 
 Do this prediction billions of times with billions of examples, and something remarkable emerges: the model can write essays, answer questions, write code, and have conversations.
 
-**Key insight:** LLMs don't "understand" in the human sense. They're incredibly sophisticated pattern matchers that can generate text that *looks* like understanding.
+**Note:** LLMs don't "understand" in the human sense. They're incredibly sophisticated pattern matchers that can generate text that *looks* like understanding.
 
 ---
 
-## Types of AI You'll Encounter
+## Types of AI to Know
 
 ### By Capability
 
@@ -210,7 +210,7 @@ After: AI can generate things ("Create an image of a cat playing chess")
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **AI is a hierarchy:** AI → ML → Deep Learning → LLMs
 2. **ML learns from data** instead of following human-written rules

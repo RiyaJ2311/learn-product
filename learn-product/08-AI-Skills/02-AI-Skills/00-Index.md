@@ -1,6 +1,6 @@
 # Module 2: AI Skills & Techniques
 
-## 2-Minute Overview
+## Quick Take
 
 Now that you understand the fundamentals and when to use AI, it's time to level up your skills. This module covers advanced techniques that separate casual AI users from power users who build AI-powered products.
 
@@ -42,9 +42,9 @@ Now that you understand the fundamentals and when to use AI, it's time to level 
 
 ---
 
-## Module Contents
+## What's Covered
 
-| Part | Title | What You'll Learn |
+| Part | Title | What to Focus On |
 |------|-------|-------------------|
 | 01 | Advanced Prompt Engineering | Techniques beyond the basics |
 | 02 | Tool Use | How AI can take actions in the world |

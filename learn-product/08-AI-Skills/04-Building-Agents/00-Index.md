@@ -1,6 +1,6 @@
 # Module 4: Building AI Agents
 
-## 2-Minute Overview
+## Quick Take
 
 You understand what agents are and how they work. Now it's time to build them. This module is hands-on—covering architecture decisions, frameworks, memory management, and production considerations.
 
@@ -39,9 +39,9 @@ By the end of this module, you'll understand how to create:
 
 ---
 
-## Module Contents
+## What's Covered
 
-| Part | Title | What You'll Learn |
+| Part | Title | What to Focus On |
 |------|-------|-------------------|
 | 01 | Architecture | Core components and how to structure an agent |
 | 02 | Frameworks | Popular tools and when to use them |

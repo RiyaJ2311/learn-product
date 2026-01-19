@@ -1,10 +1,10 @@
 # When to Use AI
 
-## 2-Minute Overview
+## Quick Take
 
 AI shines in situations where rules would be impossible or impractical to write. This chapter helps you recognize when AI is genuinely the right tool—not just the exciting one.
 
-**The key insight:** AI excels at tasks humans find easy but can't explain how they do—understanding language, recognizing patterns, making judgment calls.
+**Remember:** AI excels at tasks humans find easy but can't explain how they do—understanding language, recognizing patterns, making judgment calls.
 
 ---
 
@@ -385,7 +385,7 @@ Use AI when you can check most of these:
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Use AI for language understanding**—it's what LLMs are built for
 2. **Use AI for content generation**—creating, not just transforming

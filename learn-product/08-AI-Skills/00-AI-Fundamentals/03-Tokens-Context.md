@@ -1,10 +1,10 @@
 # Tokens & Context Windows
 
-## 2-Minute Overview
+## Quick Take
 
 Every AI interaction has a hidden economy: **tokens**. Understanding tokens helps you predict costs, debug issues, and design better AI features. This chapter makes the invisible visible.
 
-**The key insight:** Tokens are both the currency and the constraint of AI systems.
+**Remember:** Tokens are both the currency and the constraint of AI systems.
 
 ---
 
@@ -307,7 +307,7 @@ APIs have tokens-per-minute (TPM) limits, not just requests-per-minute.
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Tokens ≈ 0.75 words** for English text
 2. **Output tokens cost more** than input tokens

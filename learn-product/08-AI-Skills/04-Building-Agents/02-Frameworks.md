@@ -1,10 +1,10 @@
 # Agent Frameworks
 
-## 2-Minute Overview
+## Quick Take
 
 You don't have to build everything from scratch. Agent frameworks provide pre-built components, patterns, and integrations. This chapter covers the major options and helps you choose.
 
-**The key insight:** Frameworks accelerate development but add complexity. Choose based on your specific needs.
+**Remember:** Frameworks accelerate development but add complexity. Choose based on your specific needs.
 
 ---
 
@@ -374,7 +374,7 @@ class SimpleAgent:
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Start simple** — Direct SDK teaches fundamentals
 2. **Match framework to need** — Don't over-engineer

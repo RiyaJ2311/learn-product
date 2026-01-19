@@ -1,10 +1,10 @@
 # Multi-Agent Systems
 
-## 2-Minute Overview
+## Quick Take
 
 What if instead of one agent doing everything, you had specialized agents working together? **Multi-agent systems** use multiple AI agents—each with specific roles and expertise—to accomplish complex tasks collaboratively.
 
-**The key insight:** Just like human teams, AI teams can be more effective than individuals through specialization and collaboration.
+**Remember:** Just like human teams, AI teams can be more effective than individuals through specialization and collaboration.
 
 ---
 
@@ -369,7 +369,7 @@ result = crew.kickoff()
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Specialize agents** — Each agent does one thing well
 2. **Choose the right architecture** — Hierarchical, peer, pipeline, or debate

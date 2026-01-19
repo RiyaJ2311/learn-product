@@ -1,10 +1,10 @@
 # Agent Architecture
 
-## 2-Minute Overview
+## Quick Take
 
 A well-architected agent is modular, testable, and maintainable. This chapter covers the key components and how to structure them.
 
-**The key insight:** Good architecture separates concerns—the LLM, tools, memory, and orchestration are distinct components that work together.
+**Remember:** Good architecture separates concerns—the LLM, tools, memory, and orchestration are distinct components that work together.
 
 ---
 
@@ -405,7 +405,7 @@ print(result)
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Four core components:** LLM, Tools, Memory, Orchestrator
 2. **Separation matters:** Each component has a single responsibility

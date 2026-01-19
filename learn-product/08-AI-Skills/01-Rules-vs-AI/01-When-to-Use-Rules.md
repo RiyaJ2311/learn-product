@@ -1,10 +1,10 @@
 # When to Use Rules
 
-## 2-Minute Overview
+## Quick Take
 
 Rules-based systems (traditional code, if-then logic, decision trees) have been solving problems for decades. They're battle-tested, reliable, and often the right choice. This chapter helps you recognize when rules are the better solution.
 
-**The key insight:** Simple, predictable, and fast usually beats smart, variable, and slow.
+**Remember:** Simple, predictable, and fast usually beats smart, variable, and slow.
 
 ---
 
@@ -337,7 +337,7 @@ const orderStateMachine = {
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **If you can enumerate all cases, use rules**
 2. **If it must be deterministic, use rules**

@@ -1,10 +1,10 @@
 # Subagents
 
-## 2-Minute Overview
+## Quick Take
 
 A **subagent** is an agent spawned by another agent to handle a specific subtask. Think of it as delegation—the main agent recognizes it needs specialized help and creates a focused agent to handle that part, then continues with the results.
 
-**The key insight:** Subagents let agents decompose complex problems without losing focus or filling up their context window.
+**Remember:** Subagents let agents decompose complex problems without losing focus or filling up their context window.
 
 ---
 
@@ -430,7 +430,7 @@ subagent = Agent(
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Subagents = on-demand delegation** — Created when needed, not predefined
 2. **Benefits: context, parallelization, specialization** — Focused agents are effective

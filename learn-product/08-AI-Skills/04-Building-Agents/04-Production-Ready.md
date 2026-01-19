@@ -1,10 +1,10 @@
 # Production-Ready Agents
 
-## 2-Minute Overview
+## Quick Take
 
 A working agent is just the start. Production agents need logging, monitoring, error handling, cost controls, and security. This chapter covers what it takes to deploy agents reliably.
 
-**The key insight:** Production is where agents meet reality—users, edge cases, failures, and costs. Plan for all of them.
+**Remember:** Production is where agents meet reality—users, edge cases, failures, and costs. Plan for all of them.
 
 ---
 
@@ -548,7 +548,7 @@ def deep_health_check():
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Plan for failure** — Everything can go wrong; handle it gracefully
 2. **Log everything** — You can't fix what you can't see

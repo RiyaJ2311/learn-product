@@ -1,10 +1,10 @@
 # Tool Calling for Agents (Deep Dive)
 
-## 2-Minute Overview
+## Quick Take
 
 You learned tool basics in Module 2. For agents, tool design becomes critical—tools are what give agents their power to interact with the real world. This chapter covers advanced tool design specifically for agent systems.
 
-**The key insight:** Agent tool design is different from simple tool use. Agents need tools that support exploration, recovery, and chained operations.
+**Remember:** Agent tool design is different from simple tool use. Agents need tools that support exploration, recovery, and chained operations.
 
 ---
 
@@ -416,7 +416,7 @@ delete_user(id) → Error: {
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Agent tools need rich context** — Return enough for the agent to decide next steps
 2. **Support incremental operations** — Don't force all-or-nothing

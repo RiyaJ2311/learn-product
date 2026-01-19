@@ -2,17 +2,13 @@
 
 ## 2-Minute Overview
 
-Before you can build with AI, you need to understand what AI actually *is*—not at a PhD level, but deeply enough to make smart decisions. This module strips away the hype and explains how modern AI works in plain language.
-
-**Your Context:** You use AI tools daily, but when someone asks "How does ChatGPT work?", you're not quite sure how to answer.
-
-**Your Goal:** Understand AI well enough to explain it to others, evaluate AI features, and speak intelligently with engineers.
+Goal: Understand AI well enough to explain it to others, evaluate AI features, and speak intelligently with engineers.
 
 ---
 
-## Why Fundamentals Matter
+## Why Bother with Fundamentals
 
-Most PMs fall into one of two traps:
+Here's what to avoid:
 
 1. **AI Mysticism:** "AI is magic, I don't need to understand it"
 2. **AI Oversimplification:** "It's just autocomplete"
@@ -21,28 +17,28 @@ Both are wrong. The truth is more interesting and more useful.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│ WHAT YOU'LL ACTUALLY UNDERSTAND                              │
+│ WHAT YOU'LL ACTUALLY UNDERSTAND                             │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ✓ How LLMs "think" (and why they hallucinate)             │
-│  ✓ What tokens are and why they matter for pricing         │
-│  ✓ Why context windows are the key constraint              │
-│  ✓ How prompting actually works under the hood             │
-│  ✓ The difference between AI types (and when each applies) │
+│  ✓ How LLMs "think" (and why they hallucinate)              │
+│  ✓ What tokens are and why they matter for pricing          │
+│  ✓ Why context windows are the key constraint               │
+│  ✓ How prompting actually works under the hood              │
+│  ✓ The difference between AI types (and when each applies)  │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Module Contents
+## What's Covered
 
-| Part | Title | What You'll Learn |
-|------|-------|-------------------|
-| 01 | What is AI? | AI vs ML vs LLMs—demystifying the buzzwords |
-| 02 | How LLMs Work | The actual mechanism behind ChatGPT/Claude |
-| 03 | Tokens & Context | The economics and constraints of AI |
-| 04 | Prompting Basics | Why your words matter so much |
+| Part | Title            | What to Focus On                             |
+| ---- | ---------------- | -------------------------------------------- |
+| 01   | What is AI?      | AI vs ML vs LLMs—demystifying the buzzwords |
+| 02   | How LLMs Work    | The actual mechanism behind ChatGPT/Claude   |
+| 03   | Tokens & Context | The economics and constraints of AI          |
+| 04   | Prompting Basics | Why your words matter so much                |
 
 ---
 
@@ -71,6 +67,7 @@ Think of an LLM like this:
 ```
 
 This simple model explains:
+
 - Why AI sounds confident but can be wrong (hallucination)
 - Why the same question can get different answers
 - Why how you ask matters so much (prompting)
@@ -81,15 +78,15 @@ This simple model explains:
 
 ### AI vs ML vs LLM
 
-| Term | What It Means | Example |
-|------|---------------|---------|
-| **AI** | Broad field of making machines "intelligent" | Everything below |
-| **ML** | Machines learning patterns from data | Spam filters, recommendations |
-| **Deep Learning** | ML using neural networks with many layers | Image recognition |
-| **LLM** | Large Language Model—deep learning for text | ChatGPT, Claude |
-| **GenAI** | AI that generates new content | LLMs, DALL-E, Midjourney |
+| Term                    | What It Means                                | Example                       |
+| ----------------------- | -------------------------------------------- | ----------------------------- |
+| **AI**            | Broad field of making machines "intelligent" | Everything below              |
+| **ML**            | Machines learning patterns from data         | Spam filters, recommendations |
+| **Deep Learning** | ML using neural networks with many layers    | Image recognition             |
+| **LLM**           | Large Language Model—deep learning for text | ChatGPT, Claude               |
+| **GenAI**         | AI that generates new content                | LLMs, DALL-E, Midjourney      |
 
-### Key Terms You'll Learn
+### Key Terms to Remember
 
 - **Token:** The unit of text AI reads (roughly 0.75 words)
 - **Context Window:** How much text AI can "remember" at once
@@ -102,25 +99,25 @@ This simple model explains:
 
 ## Product Use Cases by AI Type
 
-| AI Type | What It's Good For | Product Example |
-|---------|-------------------|-----------------|
-| **LLMs** | Text understanding, generation, reasoning | Chatbots, content tools, summaries |
-| **Embeddings** | Finding similar things, search | Smart search, recommendations |
-| **Image Models** | Creating/editing images | Design tools, avatars |
-| **Speech Models** | Voice-to-text, text-to-voice | Transcription, voice assistants |
-| **Traditional ML** | Predictions from structured data | Fraud detection, forecasting |
+| AI Type                  | What It's Good For                        | Product Example                    |
+| ------------------------ | ----------------------------------------- | ---------------------------------- |
+| **LLMs**           | Text understanding, generation, reasoning | Chatbots, content tools, summaries |
+| **Embeddings**     | Finding similar things, search            | Smart search, recommendations      |
+| **Image Models**   | Creating/editing images                   | Design tools, avatars              |
+| **Speech Models**  | Voice-to-text, text-to-voice              | Transcription, voice assistants    |
+| **Traditional ML** | Predictions from structured data          | Fraud detection, forecasting       |
 
 ---
 
 ## Common Misconceptions
 
-| Misconception | Reality |
-|---------------|---------|
-| "AI understands meaning" | AI predicts patterns; understanding is debatable |
-| "AI has a memory" | AI only "remembers" what's in the current context window |
-| "AI is deterministic" | AI has randomness built in (temperature setting) |
-| "Bigger model = always better" | Smaller models can be faster, cheaper, and sufficient |
-| "AI will replace everyone" | AI augments; the best combo is human + AI |
+| Misconception                  | Reality                                                  |
+| ------------------------------ | -------------------------------------------------------- |
+| "AI understands meaning"       | AI predicts patterns; understanding is debatable         |
+| "AI has a memory"              | AI only "remembers" what's in the current context window |
+| "AI is deterministic"          | AI has randomness built in (temperature setting)         |
+| "Bigger model = always better" | Smaller models can be faster, cheaper, and sufficient    |
+| "AI will replace everyone"     | AI augments; the best combo is human + AI                |
 
 ---
 
@@ -129,6 +126,7 @@ This simple model explains:
 **Go to:** [01-What-is-AI.md](01-What-is-AI.md)
 
 Or if you have specific questions:
+
 - "What's the difference between AI and ML?" → [01-What-is-AI.md](01-What-is-AI.md)
 - "How does ChatGPT actually work?" → [02-LLMs-Explained.md](02-LLMs-Explained.md)
 - "Why does AI pricing work that way?" → [03-Tokens-Context.md](03-Tokens-Context.md)

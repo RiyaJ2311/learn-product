@@ -1,6 +1,6 @@
 # Module 1: Rules vs AI
 
-## 2-Minute Overview
+## Quick Take
 
 The most important AI skill isn't prompt engineering or knowing the latest models. It's knowing **when NOT to use AI**. This module teaches you the decision framework for choosing between traditional code/rules and AI—potentially saving you months of wasted effort.
 
@@ -38,9 +38,9 @@ The #1 mistake companies make with AI:
 
 ---
 
-## Module Contents
+## What's Covered
 
-| Part | Title | What You'll Learn |
+| Part | Title | What to Focus On |
 |------|-------|-------------------|
 | 01 | When to Use Rules | Situations where code/rules beat AI |
 | 02 | When to Use AI | Situations where AI is the right choice |

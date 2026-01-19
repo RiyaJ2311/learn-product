@@ -1,10 +1,10 @@
 # What Are AI Agents?
 
-## 2-Minute Overview
+## Quick Take
 
 An AI agent is a system that uses a language model as its "brain" to autonomously accomplish goals. Unlike simple AI that responds to single prompts, agents can plan, take actions, observe results, and iterate until the task is complete.
 
-**The key insight:** Agents are not a new type of AI—they're an architecture that combines LLMs with tools and a reasoning loop.
+**Remember:** Agents are not a new type of AI—they're an architecture that combines LLMs with tools and a reasoning loop.
 
 ---
 
@@ -337,7 +337,7 @@ To build an agent, you need:
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Agents = LLM + Tools + Loop** — It's an architecture, not magic
 2. **Think-Act-Observe cycle** — The fundamental pattern

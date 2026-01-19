@@ -1,10 +1,10 @@
 # Prompting Basics
 
-## 2-Minute Overview
+## Quick Take
 
 The way you talk to AI dramatically affects what you get back. This chapter covers the foundational principles of prompting—the skill that separates mediocre AI results from excellent ones.
 
-**The key insight:** Prompting is about reducing ambiguity and providing context. The AI fills in gaps with assumptions—better prompts mean fewer wrong assumptions.
+**Remember:** Prompting is about reducing ambiguity and providing context. The AI fills in gaps with assumptions—better prompts mean fewer wrong assumptions.
 
 ---
 
@@ -427,7 +427,7 @@ Good prompting is iterative:
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **Specificity wins**—vague prompts get vague results
 2. **Context is everything**—AI fills gaps with assumptions

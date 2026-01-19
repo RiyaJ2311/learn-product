@@ -1,6 +1,6 @@
 # Module 3: AI Agents
 
-## 2-Minute Overview
+## Quick Take
 
 Everything you've learned so far—prompting, tools, reasoning—comes together in **AI Agents**. An agent is an AI that can autonomously plan and execute multi-step tasks, using tools to take actions and adapting based on results.
 
@@ -86,9 +86,9 @@ Every agent follows this fundamental pattern:
 
 ---
 
-## Module Contents
+## What's Covered
 
-| Part | Title | What You'll Learn |
+| Part | Title | What to Focus On |
 |------|-------|-------------------|
 | 01 | What Are Agents | Core concepts, architecture, when to use |
 | 02 | Agent Patterns | ReAct, Plan-Execute, and other architectures |

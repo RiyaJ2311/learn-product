@@ -1,10 +1,10 @@
 # How LLMs Work
 
-## 2-Minute Overview
+## Quick Take
 
 You don't need a PhD to understand how ChatGPT and Claude work. This chapter explains the actual mechanism in plain language—enough to understand why LLMs behave the way they do.
 
-**The core insight:** LLMs are next-word predictors that became surprisingly capable at scale.
+**Remember:** LLMs are next-word predictors that became surprisingly capable at scale.
 
 ---
 
@@ -163,7 +163,7 @@ Hallucination: When AI confidently states something false.
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Key insight:** LLMs don't have a fact database. They have learned patterns. When patterns suggest an answer but facts don't exist, the model still generates something plausible-sounding.
+**Note:** LLMs don't have a fact database. They have learned patterns. When patterns suggest an answer but facts don't exist, the model still generates something plausible-sounding.
 
 ---
 
@@ -284,7 +284,7 @@ Training the model to give responses humans prefer.
 
 ---
 
-## Key Takeaways
+## Things to Remember
 
 1. **LLMs predict the next word**—everything else emerges from this
 2. **Training is pattern learning** on billions of examples
