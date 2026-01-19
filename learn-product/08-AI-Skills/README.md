@@ -118,3 +118,11 @@ Here's what you'll learn to build:
 ---
 
 **Start here:** [00-AI-Fundamentals/00-Index.md](00-AI-Fundamentals/00-Index.md)
+
+---
+
+## Documentation Resources
+
+- **[GLOSSARY.md](GLOSSARY.md)** - Comprehensive glossary of all AI terms
+- **[CHEATSHEET.md](CHEATSHEET.md)** - Quick reference for all concepts
+- **[DOCUMENTATION-GUIDELINES.md](DOCUMENTATION-GUIDELINES.md)** - Style guide and standards for contributors
