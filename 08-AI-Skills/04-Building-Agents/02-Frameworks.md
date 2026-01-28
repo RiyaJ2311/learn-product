@@ -384,4 +384,44 @@ class SimpleAgent:
 
 ---
 
+## Framework Documentation & Resources
+
+### Official Documentation
+
+**Direct SDKs:**
+- [Anthropic Claude API Docs](https://docs.anthropic.com/) - Tool use and message API
+- [OpenAI API Docs](https://platform.openai.com/docs) - Assistants API and function calling
+
+**Full Frameworks:**
+- [LangChain Docs](https://python.langchain.com/docs/get_started/introduction) - Comprehensive agent framework
+- [LangGraph Docs](https://langchain-ai.github.io/langgraph/) - Stateful, multi-actor applications
+- [CrewAI Docs](https://docs.crewai.com/) - Multi-agent collaboration framework
+- [Semantic Kernel Docs](https://learn.microsoft.com/en-us/semantic-kernel/) - Microsoft's AI orchestration
+
+**Specialized:**
+- [AutoGen Docs](https://microsoft.github.io/autogen/) - Microsoft multi-agent framework
+- [LlamaIndex Docs](https://docs.llamaindex.ai/) - Data framework for LLM apps
+- [Haystack Docs](https://docs.haystack.deepset.ai/) - NLP framework with LLM support
+
+### Tutorials & Guides
+
+- [LangChain Academy](https://academy.langchain.com/) - Free courses on building LLM apps
+- [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Code examples and guides
+- [OpenAI Cookbook](https://cookbook.openai.com/) - Practical examples and best practices
+- [Build a LangGraph Agent Tutorial](https://langchain-ai.github.io/langgraph/tutorials/introduction/) - Step-by-step guide
+
+### Comparison Articles
+
+- [LangChain vs Direct SDK](https://blog.langchain.dev/why-langchain/) - When to use frameworks
+- [Agent Framework Comparison 2024](https://arxiv.org/abs/2308.11432) - Research paper comparing approaches
+- [Choosing an LLM Framework](https://www.youtube.com/watch?v=example) - Video comparison
+
+### Community
+
+- [LangChain Discord](https://discord.gg/langchain) - Active community support
+- [r/LangChain](https://www.reddit.com/r/LangChain/) - Reddit discussions
+- [LangChain GitHub Discussions](https://github.com/langchain-ai/langchain/discussions) - Technical questions
+
+---
+
 **Next:** [03-Memory-State.md](03-Memory-State.md) - Managing conversation memory

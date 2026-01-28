@@ -46,6 +46,153 @@ Print or save this for easy access while testing:
 
 ---
 
+## 🎯 7 Essential Debugging Skills You'll Master
+
+After reading this guide, you'll be able to:
+
+### 1. ✅ Understand Every Column in Network Requests
+
+**Where:** Network Tab → Main view
+
+| Column | What It Tells You | How to Use It |
+|--------|-------------------|---------------|
+| **Name** | What was requested | Find the API call related to your issue |
+| **Status** | HTTP response code | Red numbers (4xx/5xx) = errors |
+| **Type** | Request category | Filter for `xhr`/`fetch` to see API calls only |
+| **Size** | Data transferred | Very small on error = probably error message |
+| **Time** | Request duration | >3 seconds = investigate in Timing tab |
+
+**Quick Action:** Click column header to sort (e.g., sort by Time to find slowest requests)
+
+### 2. ✅ Read the Timing Tab to Identify Backend Slowness
+
+**Where:** Network Tab → Click request → Timing tab
+
+**Key Metric: TTFB (Time To First Byte)**
+- **What it is:** How long backend takes to start responding
+- **Good:** <500ms
+- **Slow:** 500ms - 1s
+- **Very slow:** >1s (backend performance issue!)
+
+**Quick Diagnosis:**
+- TTFB is slow → Backend/database issue
+- Download is slow → Large response or slow connection
+- SSL is slow → Certificate/encryption overhead
+
+### 3. ✅ Check Auth Tokens in Application Tab
+
+**Where:** Application Tab → Storage section
+
+**For Login Issues, Check:**
+
+| Location | What to Look For | If Missing/Wrong |
+|----------|------------------|------------------|
+| **Cookies** | `auth_token`, `session_id`, `jwt` | User not authenticated |
+| **Local Storage** | `authToken`, `token`, `access_token` | Session lost |
+| **Cookie Expires** | Expiration date | Token expired = logged out |
+
+**Quick Actions:**
+- Check if token exists
+- Check expiration date (in Cookies tab)
+- Mask sensitive tokens before sharing screenshots
+
+### 4. ✅ Force Hover States to Test Button Styles
+
+**Where:** Elements Tab → Select button → Styles panel → `:hov` button
+
+**How to Use:**
+1. Inspect the button (right-click → Inspect)
+2. In Styles panel, click `:hov` button
+3. Check `:hover`, `:active`, `:focus` states
+4. See how button styles change
+
+**When to Use:**
+- Button looks broken on hover/click
+- Hover effects don't appear
+- Focus state not visible for keyboard users
+- Testing all button states without actually hovering
+
+### 5. ✅ See the Box Model to Understand Spacing Issues
+
+**Where:** Elements Tab → Select element → Layout panel (or Computed tab → Box Model)
+
+**What to Check:**
+
+```
+┌─────────────────────────────┐
+│     margin (outside)        │
+│  ┌─────────────────────┐    │
+│  │    border           │    │
+│  │  ┌───────────────┐  │    │
+│  │  │ padding (inside)│  │    │
+│  │  │  ┌─────────┐  │  │    │
+│  │  │  │ content │  │  │    │
+│  │  │  └─────────┘  │  │    │
+│  │  └───────────────┘  │    │
+│  └─────────────────────┘    │
+└─────────────────────────────┘
+```
+
+**Common Issues:**
+- Too much space? → Check margin values
+- Text too close to edges? → Check padding
+- Element too wide? → Check padding + border + content width
+- Can edit values by clicking them to test fixes!
+
+### 6. ✅ Test on Mobile with Proper Device Simulation
+
+**Where:** DevTools top-left → 📱 Device icon (or `Cmd+Shift+M`)
+
+**Essential Checks:**
+
+| Test | How to Check | What to Look For |
+|------|--------------|------------------|
+| **Layout** | Select device (iPhone, iPad) | No horizontal scroll, text readable |
+| **Touch targets** | Inspect buttons | Minimum 44×44px (check box model) |
+| **Breakpoints** | Resize width or select devices | Layout adapts at key widths |
+| **Slow connection** | Network throttling → Slow 3G | Loading states, timeouts |
+| **Touch interactions** | Click and drag | Swipe gestures work |
+
+**Quick Test Devices:**
+- iPhone SE (375×667) - Small phone
+- iPhone 13 Pro (390×844) - Standard phone
+- iPad Air (820×1180) - Tablet
+
+### 7. ✅ Run Lighthouse Audits for Overall Quality Checks
+
+**Where:** Lighthouse Tab (or >> → Lighthouse)
+
+**What to Do:**
+1. Click "Generate report"
+2. Wait ~30 seconds
+3. Review scores (green = good, yellow = needs work, red = poor)
+
+**What It Checks:**
+- **Performance** (90+) → Fast load times, responsive
+- **Accessibility** (90+) → Usable by everyone
+- **Best Practices** (90+) → Secure, modern code
+- **SEO** (90+) → Search engine friendly
+
+**When to Use:**
+- Before major releases
+- After performance improvements
+- Regular health checks
+- When users complain about speed
+
+---
+
+## 📚 How to Use This Guide
+
+**First Time:** Read through the sections relevant to your issue using the "Quick Reference: Which Tab to Use When" table.
+
+**During Testing:** Keep DevTools open, refer to the Quick Reference Card, and capture evidence as you go.
+
+**Reporting Bugs:** Use the Bug Report Template at the end with all the evidence you gathered.
+
+**Learning:** Try the Practice Exercises to build confidence without pressure.
+
+---
+
 ## Opening Browser DevTools
 
 | Browser | Method 1 | Method 2 | Method 3 |

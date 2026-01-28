@@ -453,4 +453,33 @@ _______________________________________________
 
 ---
 
+## Further Learning
+
+### Official Guides
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Best practices from Claude's creators
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Strategies for better results
+- [Google's Prompt Engineering Guide](https://ai.google.dev/gemini-api/docs/prompting-intro) - Gemini-focused techniques
+
+### Interactive Learning
+- [Learn Prompting](https://learnprompting.org/) - Free comprehensive course
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) - Techniques and examples
+- [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - DeepLearning.AI course (free)
+
+### Cookbooks & Examples
+- [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Real-world examples and patterns
+- [OpenAI Cookbook](https://cookbook.openai.com/) - Practical guides and code
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - Community-curated prompt examples
+
+### Advanced Techniques
+- [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Research paper on reasoning prompts
+- [ReAct: Reasoning and Acting](https://arxiv.org/abs/2210.03629) - Combining reasoning with actions
+- [Tree of Thoughts](https://arxiv.org/abs/2305.10601) - Deliberate problem solving
+
+### Tools
+- [PromptPerfect](https://promptperfect.jina.ai/) - Optimize prompts automatically
+- [LangSmith Prompt Hub](https://smith.langchain.com/hub) - Share and discover prompts
+- [Poe](https://poe.com/) - Test prompts across multiple models
+
+---
+
 **Next:** [02-Tool-Use.md](02-Tool-Use.md) - Giving AI the ability to take actions

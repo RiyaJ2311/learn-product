@@ -190,3 +190,47 @@ While learning AI, you'll encounter fundamental software engineering concepts th
 - **[GLOSSARY.md](GLOSSARY.md)** - Comprehensive glossary of all AI terms
 - **[CHEATSHEET.md](CHEATSHEET.md)** - Quick reference for all concepts
 - **[DOCUMENTATION-GUIDELINES.md](DOCUMENTATION-GUIDELINES.md)** - Style guide and standards for contributors
+
+---
+
+## External Learning Resources
+
+### Foundational Courses (Free)
+- [DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/) - Practical AI courses by Andrew Ng
+- [LangChain Academy](https://academy.langchain.com/) - Building with LLMs and agents
+- [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Official Claude guide
+- [Fast.ai Practical Deep Learning](https://course.fast.ai/) - Code-first approach to AI
+
+### Interactive Platforms
+- [Learn Prompting](https://learnprompting.org/) - Free prompt engineering course
+- [PromptingGuide.ai](https://www.promptingguide.ai/) - Techniques and examples
+- [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) - Interactive visualization
+
+### Essential Papers
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - The Transformer (2017)
+- [GPT-3 Paper](https://arxiv.org/abs/2005.14165) - Language Models are Few-Shot Learners
+- [ReAct: Reasoning and Acting](https://arxiv.org/abs/2210.03629) - Core agent pattern
+- [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Reasoning techniques
+
+### Video Explainers
+- [3Blue1Brown: But what is a GPT?](https://www.youtube.com/watch?v=wjZofJX0v4M) - Visual explanation
+- [Andrej Karpathy: Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) - Code walkthrough
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) - Visual guide
+
+### Tools & Playgrounds
+- [OpenAI Playground](https://platform.openai.com/playground) - Test GPT models
+- [Anthropic Console](https://console.anthropic.com/) - Test Claude
+- [LangSmith](https://smith.langchain.com/) - Debug and observe LLM apps
+- [OpenAI Tokenizer](https://platform.openai.com/tokenizer) - Understand tokenization
+
+### Communities
+- [r/LangChain](https://www.reddit.com/r/LangChain/) - Framework discussions
+- [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/) - Open source LLMs
+- [LangChain Discord](https://discord.gg/langchain) - Real-time help
+- [Anthropic Discord](https://discord.gg/anthropic) - Claude API support
+
+### Blogs Worth Following
+- [Anthropic Research](https://www.anthropic.com/research) - AI safety and capabilities
+- [OpenAI Blog](https://openai.com/blog) - Latest developments
+- [Lilian Weng's Blog](https://lilianweng.github.io/) - Deep technical posts
+- [Simon Willison's Blog](https://simonwillison.net/) - Practical LLM insights

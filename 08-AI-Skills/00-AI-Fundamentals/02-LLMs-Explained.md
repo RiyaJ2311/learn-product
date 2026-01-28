@@ -312,4 +312,29 @@ This is still being debated, but it explains why AI labs are building ever-large
 
 ---
 
+## Further Learning
+
+### Essential Papers
+- ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) - The Transformer paper that started it all (2017)
+- ["Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) - GPT-3 paper (2020)
+- ["Training language models to follow instructions with human feedback"](https://arxiv.org/abs/2203.02155) - InstructGPT/RLHF paper (2022)
+
+### Intuitive Explainers
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) - Visual explanation of how Transformers work
+- [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/) - Build a tiny GPT from scratch
+- [3Blue1Brown: But what is a GPT?](https://www.youtube.com/watch?v=wjZofJX0v4M) - Visual math explainer
+- [Andrej Karpathy: Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) - Code walkthrough
+
+### Interactive Demos
+- [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) - Interactive visualization
+- [LLM Visualization](https://bbycroft.net/llm) - See tokens flow through layers
+- [OpenAI Tokenizer](https://platform.openai.com/tokenizer) - Try tokenization yourself
+
+### Deep Dives
+- [Anthropic's Machine Learning Research](https://www.anthropic.com/research) - Cutting-edge interpretability research
+- [OpenAI Research](https://openai.com/research) - Latest model developments
+- [The Transformer Family](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family/) - Lilian Weng's comprehensive overview
+
+---
+
 **Next:** [03-Tokens-Context.md](03-Tokens-Context.md) - The economics and constraints of AI

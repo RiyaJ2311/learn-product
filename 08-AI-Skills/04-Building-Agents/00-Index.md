@@ -211,3 +211,23 @@ Or based on your needs:
 - "How do I make it production-ready?" → [04-Production-Ready.md](04-Production-Ready.md)
 - "How do I monitor and debug my agent?" → [05-Observability.md](05-Observability.md)
 - "Quick observability reference?" → [06-Observability-Quick-Reference.md](06-Observability-Quick-Reference.md)
+
+---
+
+## Essential Resources
+
+### Official Documentation
+- [Anthropic Claude API](https://docs.anthropic.com/) - Tool use and message API
+- [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) - Pre-built agent framework
+- [LangGraph Docs](https://langchain-ai.github.io/langgraph/) - Stateful agent framework
+- [LangSmith](https://docs.smith.langchain.com/) - Observability for LLM apps
+
+### Learning Paths
+- [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Production-ready examples
+- [LangChain Academy](https://academy.langchain.com/) - Free courses on building agents
+- [DeepLearning.AI: Building Systems with ChatGPT](https://www.deeplearning.ai/short-courses/) - Practical course
+
+### Community
+- [LangChain Discord](https://discord.gg/langchain) - Active community support
+- [r/LangChain](https://www.reddit.com/r/LangChain/) - Discussions and Q&A
+- [Anthropic Discord](https://discord.gg/anthropic) - Claude API support

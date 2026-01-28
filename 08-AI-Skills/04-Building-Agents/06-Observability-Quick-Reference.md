@@ -225,14 +225,19 @@ Without observability:
 ## Further Reading
 
 **Books:**
-- "Observability Engineering" by Charity Majors (the bible)
+- ["Observability Engineering"](https://www.oreilly.com/library/view/observability-engineering/9781492076438/) by Charity Majors - The bible of modern observability
 
 **Blogs:**
-- Honeycomb Blog (honeycomb.io/blog)
-- Charity Majors' blog (charity.wtf)
+- [Honeycomb Blog](https://www.honeycomb.io/blog) - Best practices and case studies
+- [Charity Majors' Blog](https://charity.wtf/) - Engineering insights
 
 **Courses:**
-- Honeycomb University (free)
+- [Honeycomb University](https://www.honeycomb.io/university/) - Free hands-on courses
+- [OpenTelemetry Getting Started](https://opentelemetry.io/docs/getting-started/) - Official tutorials
+
+**Tools:**
+- [LangSmith Docs](https://docs.smith.langchain.com/) - For LLM apps
+- [Datadog Learning Center](https://learn.datadoghq.com/) - Full platform training
 
 ---
 

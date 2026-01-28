@@ -361,4 +361,38 @@ Ask yourself:
 
 ---
 
+## Further Learning
+
+### Foundational Papers
+- ["ReAct: Synergizing Reasoning and Acting in Language Models"](https://arxiv.org/abs/2210.03629) - The core agent pattern (2022)
+- ["Reflexion: Language Agents with Verbal Reinforcement Learning"](https://arxiv.org/abs/2303.11366) - Self-reflection in agents
+- ["AutoGPT: An Autonomous GPT-4 Experiment"](https://github.com/Significant-Gravitas/AutoGPT) - Early autonomous agent
+
+### Comprehensive Guides
+- [LangChain Agent Documentation](https://python.langchain.com/docs/modules/agents/) - Practical agent building
+- [LangGraph Tutorials](https://langchain-ai.github.io/langgraph/tutorials/) - Stateful agent patterns
+- [Anthropic Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) - Building blocks for agents
+
+### Research & Analysis
+- ["The Landscape of Emerging AI Agent Architectures"](https://arxiv.org/abs/2404.11584) - Survey of agent designs
+- [LLM Agents: A Survey](https://arxiv.org/abs/2308.11432) - Academic overview of agent capabilities
+- [Anthropic: Building Reliable AI Agents](https://www.anthropic.com/research) - Safety and reliability research
+
+### Practical Examples
+- [Anthropic Cookbook: Agents](https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents) - Code examples
+- [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) - Pre-built agent framework
+- [Microsoft Semantic Kernel Agents](https://learn.microsoft.com/en-us/semantic-kernel/agents/) - Enterprise agent patterns
+
+### Interactive Demos
+- [AgentBench](https://github.com/THUDM/AgentBench) - Benchmark and test different agents
+- [AutoGPT Playground](https://autogpt.net/) - Try autonomous agents
+- [Claude with tools](https://claude.ai/) - Experience agent-like behavior
+
+### Community & Discussion
+- [r/LangChain Agents](https://www.reddit.com/r/LangChain/search?q=agents) - Community discussions
+- [AI Agent Builders Discord](https://discord.gg/langchain) - Real-time help
+- [Agent Architecture Patterns](https://github.com/patterns-ai-core/agent-patterns) - Design patterns collection
+
+---
+
 **Next:** [02-Agent-Patterns.md](02-Agent-Patterns.md) - Common agent architectures
