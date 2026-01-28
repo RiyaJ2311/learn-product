@@ -460,6 +460,7 @@ Ask:
 
 - **Generic observability basics:** [Learn the fundamentals](../../../learn-code/observability/00-Index.md) ([GitHub](https://github.com/RiyaJ2311/learn/blob/main/learn-code/observability/00-Index.md))
 - **Tools comparison:** [Choose your observability platform](../../../learn-code/observability/02-Tools-Overview.md) ([GitHub](https://github.com/RiyaJ2311/learn/blob/main/learn-code/observability/02-Tools-Overview.md))
+- **PM perspective:** [Why PMs care about observability](../../../learn-code/observability/04-For-PMs.md) ([GitHub](https://github.com/RiyaJ2311/learn/blob/main/learn-code/observability/04-For-PMs.md))
 - **Build your agent:** [Agent Architecture](01-Architecture.md)
 
 ---

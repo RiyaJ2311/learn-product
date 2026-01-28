@@ -22,6 +22,18 @@ This section contains:
 - Core concepts: Logs, metrics, traces
 - Tools: Honeycomb, Datadog, Grafana, and more
 
+**[API Design](api-design/)** - Design APIs that developers love
+- REST principles, naming, versioning
+- Error handling and authentication
+- Documentation best practices
+- Applies to REST APIs, GraphQL, and AI tool interfaces
+
+**[System Architecture](system-architecture/)** - Design systems that scale and evolve
+- Coupling, cohesion, boundaries
+- Patterns: monolith, microservices, event-driven
+- Trade-offs and decision making
+- Evolution strategies
+
 ### Code Projects
 
 **[Chrome Extension](chrome-extension/)** - Browser extension development
@@ -45,8 +57,8 @@ Many concepts here connect to domain-specific guides:
 | Concept | Generic Guide | Domain-Specific Application |
 |---------|---------------|----------------------------|
 | **Observability** | [observability/](observability/) | [AI Agents](../08-AI-Skills/04-Building-Agents/05-Observability.md) |
-| **API Design** | Coming soon | [AI Tool Calling](../08-AI-Skills/03-AI-Agents/03-Tool-Calling.md) |
-| **System Architecture** | Coming soon | [Agent Patterns](../08-AI-Skills/03-AI-Agents/02-Agent-Patterns.md) |
+| **API Design** | [api-design/](api-design/) | [AI Tool Calling](../08-AI-Skills/03-AI-Agents/03-Tool-Calling.md) |
+| **System Architecture** | [system-architecture/](system-architecture/) | [Agent Patterns](../08-AI-Skills/03-AI-Agents/02-Agent-Patterns.md) |
 
 ---
 
