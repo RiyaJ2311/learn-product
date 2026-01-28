@@ -22,10 +22,12 @@ These aren't separate. The best PMs in the AI era understand both product craft 
 | Improve my PM skills | [PM Development Path](#pm-development-path) |
 | Learn AI from scratch | [08-AI-Skills/](08-AI-Skills/) |
 | Build AI agents | [08-AI-Skills/04-Building-Agents/](08-AI-Skills/04-Building-Agents/) |
+| Review my feedback themes | [00-Feedback-From-2025/](00-Feedback-From-2025/) |
 | See PM cheatsheet | [CHEATSHEET.md](CHEATSHEET.md) |
 | See AI cheatsheet | [08-AI-Skills/CHEATSHEET.md](08-AI-Skills/CHEATSHEET.md) |
 | Browse AI prompts | [ai-prompts/](ai-prompts/) |
 | Practice PM scenarios | [tests/scenario-exercises.md](tests/scenario-exercises.md) |
+| Understand naming conventions | [NOMENCLATURE.md](NOMENCLATURE.md) |
 
 ---
 
@@ -33,6 +35,9 @@ These aren't separate. The best PMs in the AI era understand both product craft 
 
 ```
 learn/
+│
+├── Start Here
+│   └── 00-Feedback-From-2025/       ← Personal feedback themes & rituals
 │
 ├── PM Development Path
 │   ├── 01-Communication-Clarity/    ← Answer first, impact translation
@@ -48,18 +53,24 @@ learn/
 │       ├── 01-Rules-vs-AI/          ← When to use AI vs code
 │       ├── 02-AI-Skills/            ← Prompting, tools, techniques
 │       ├── 03-AI-Agents/            ← Agent patterns & architectures
-│       └── 04-Building-Agents/      ← Build production agents
+│       ├── 04-Building-Agents/      ← Build production agents
+│       └── tools/                   ← Doc validator & utilities
 │
 ├── Resources & Tools
 │   ├── ai-prompts/                  ← Production-ready AI prompts
 │   ├── frameworks/                  ← PM frameworks and templates
 │   ├── templates/                   ← PRD, data, comms templates
 │   ├── tests/                       ← Practice exercises
-│   └── learn-code/                  ← Code projects & experiments
+│   ├── learn-code/                  ← Code projects & experiments
+│   └── wip-articles/                ← Work-in-progress content
 │
-└── Reference
+└── Reference Docs
+    ├── README.md                    ← This file
     ├── CHEATSHEET.md                ← PM quick reference
-    └── 08-AI-Skills/CHEATSHEET.md   ← AI quick reference
+    ├── NOMENCLATURE.md              ← Naming conventions
+    ├── 08-AI-Skills/CHEATSHEET.md   ← AI quick reference
+    ├── 08-AI-Skills/GLOSSARY.md     ← AI terminology
+    └── 08-AI-Skills/DOCUMENTATION-GUIDELINES.md
 ```
 
 ---
@@ -233,6 +244,7 @@ This isn't about being perfect. It's about being better than yesterday.
 - **[AI Cheatsheet](08-AI-Skills/CHEATSHEET.md)** - Quick AI concepts reference
 - **[AI Glossary](08-AI-Skills/GLOSSARY.md)** - Comprehensive AI terminology
 - **[Documentation Guidelines](08-AI-Skills/DOCUMENTATION-GUIDELINES.md)** - Content standards
+- **[Nomenclature](NOMENCLATURE.md)** - Repository naming conventions and standards
 
 ---
 
