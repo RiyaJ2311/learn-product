@@ -1,7 +1,5 @@
 # Observability Quick Cheatsheet
 
-A quick reference for common concepts, calculations, and gotchas.
-
 ---
 
 ## The Analogies
@@ -139,5 +137,3 @@ When engineering says "we have elevated errors":
 - **P95:** 95% of requests are faster than this number
 
 ---
-
-*Print this out or bookmark it for quick reference during incidents and stakeholder meetings.*
