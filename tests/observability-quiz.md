@@ -1,223 +1,248 @@
 # Observability Quiz for PMs
 
-Test your understanding of observability concepts. Answers are at the bottom - no peeking!
+Test your understanding of observability concepts with diverse question types. Answers are at the bottom - no peeking!
 
 ---
 
-## Section 1: Core Concepts
+## Section 1: True or False
 
-### Q1: Monitoring vs Observability
+Mark each statement as True (T) or False (F):
 
-What's the key difference between monitoring and observability?
+### Q1
+Observability and monitoring are the same thing.
+```
+Your answer: [ ]
+```
 
-- A) Monitoring is free, observability costs money
-- B) Monitoring answers pre-defined questions, observability lets you ask arbitrary questions
-- C) Monitoring is for engineers, observability is for PMs
-- D) They're the same thing with different names
+### Q2
+Product analytics tools like PostHog track system behavior (errors, latency).
+```
+Your answer: [ ]
+```
 
----
+### Q3
+The three pillars of observability are: Logs, Metrics, and Traces.
+```
+Your answer: [ ]
+```
 
-### Q2: The Three Pillars
+### Q4
+P95 latency of 2 seconds means the average request takes 2 seconds.
+```
+Your answer: [ ]
+```
 
-Which of these is NOT one of the three pillars of observability?
-
-- A) Logs
-- B) Metrics
-- C) Dashboards
-- D) Traces
-
----
-
-### Q3: What is a Trace?
-
-A trace is best described as:
-
-- A) A count of errors per minute
-- B) The journey of a single request through all services
-- C) A text record of an event
-- D) A graph showing CPU usage
-
----
-
-## Section 2: Observability vs Other Tools
-
-### Q4: Database vs Observability
-
-Your database stores `User { id: 123, name: "Jane" }`. What would observability capture about Jane?
-
-- A) Jane's email address
-- B) Jane's password (hashed)
-- C) "Jane's checkout request took 5s, failed at payment service"
-- D) Jane's order history
+### Q5
+You need both product analytics AND observability for a complete picture.
+```
+Your answer: [ ]
+```
 
 ---
 
-### Q5: Product Analytics vs Observability
+## Section 2: Fill in the Blanks
 
-PostHog tells you "30% of users abandon checkout." What question does observability answer?
+### Q6
+Complete the comparison:
+- Database = your application's **____________** (stores business data)
+- Observability = your application's **____________** (records how things happened)
 
-- A) Which features should we build next?
-- B) Why are checkout requests failing or slow?
-- C) How many users signed up this week?
-- D) What's our NPS score?
+### Q7
+The key difference between monitoring and observability:
+- Monitoring answers **____________** questions
+- Observability lets you ask **____________** questions
 
----
-
-### Q6: When to Use What
-
-A user reports "the app is slow." Which tool helps you find out WHY?
-
-- A) PostHog (product analytics)
-- B) Google Analytics
-- C) Honeycomb (observability)
-- D) Figma
+### Q8
+Product analytics tells you "users are abandoning checkout."
+Observability tells you "**____________**"
 
 ---
 
-## Section 3: PM-Specific Knowledge
+## Section 3: Matching
 
-### Q7: Asking Engineering
+### Q9
+Match the tool to its primary purpose:
 
-Which question will get you a better answer from engineering?
+| Tool | Purpose |
+|------|---------|
+| 1. Honeycomb | A. Product analytics - user behavior tracking |
+| 2. PostHog | B. High-cardinality debugging queries |
+| 3. Prometheus | C. Log aggregation and SIEM |
+| 4. Splunk | D. Metrics collection for Kubernetes |
 
-- A) "Is the app working?"
-- B) "What's the P95 latency for checkout this week?"
-- C) "Can you fix the bug?"
-- D) "Why is everything so slow?"
+```
+Your answers:
+1 → [ ]
+2 → [ ]
+3 → [ ]
+4 → [ ]
+```
 
----
+### Q10
+Match the question to who asks it:
 
-### Q8: Understanding P95
+| Question | Who Asks |
+|----------|----------|
+| 1. "Why did this request fail?" | A. PM using product analytics |
+| 2. "What features do users click most?" | B. Engineer using observability |
+| 3. "What's causing the 2% error rate?" | C. PM using observability data |
+| 4. "How many users drop off at step 3?" | |
 
-If the P95 latency is 2 seconds, what does that mean?
-
-- A) All requests take exactly 2 seconds
-- B) The average request takes 2 seconds
-- C) 95% of requests complete in under 2 seconds
-- D) 5% of requests complete in under 2 seconds
-
----
-
-### Q9: Feature Launch Validation
-
-You just launched a new feature. What should you check in observability?
-
-- A) How many people liked your launch tweet
-- B) Error rate and latency for the new feature
-- C) Competitor feature comparison
-- D) Design review feedback
-
----
-
-### Q10: Incident Response
-
-During an outage, which question is MOST useful to ask?
-
-- A) "Who broke it?"
-- B) "What's the blast radius - how many users are affected?"
-- C) "When will it be fixed?"
-- D) "Why didn't we prevent this?"
+```
+Your answers:
+1 → [ ]
+2 → [ ]
+3 → [ ]
+4 → [ ]
+```
 
 ---
 
-## Section 4: Tool Selection
+## Section 4: Scenario-Based (Short Answer)
 
-### Q11: High Cardinality
+### Q11: The Support Ticket
 
-A tool that supports "high cardinality" means it can:
+**Scenario:** A user emails: "I tried to checkout but got an error. This happened around 2pm."
 
-- A) Only work with small datasets
-- B) Handle millions of unique values (like user IDs)
-- C) Display pretty graphs
-- D) Send email alerts
+Without observability, you would: _________________________________
 
----
+With good observability, you would: _________________________________
 
-### Q12: Tool Matching
+### Q12: The Launch Review
 
-Match the strength to the tool:
+**Scenario:** You launched a new "quick checkout" feature yesterday. Your manager asks: "How's it going?"
 
-**Scenario:** You need to debug why a specific enterprise user's request failed.
+What 3 metrics would you check in your observability dashboard?
 
-Which tool is best?
+1. _________________________________
+2. _________________________________
+3. _________________________________
 
-- A) Splunk (log aggregation)
-- B) Honeycomb (high-cardinality queries)
-- C) CloudWatch (AWS monitoring)
-- D) Prometheus (metrics)
+### Q13: The Incident
 
----
+**Scenario:** Engineering says "We're seeing elevated error rates." You have a stakeholder meeting in 30 minutes.
 
-### Q13: When NOT to Add Observability Tools
+Write 3 questions you'd ask engineering to prepare:
 
-When should you NOT invest in better observability?
-
-- A) When you have 1 user and can check the logs manually
-- B) When you're a large company with production issues
-- C) When debugging takes days
-- D) When you can't reproduce bugs
+1. _________________________________
+2. _________________________________
+3. _________________________________
 
 ---
 
-## Section 5: Scenario-Based
+## Section 5: Diagram Interpretation
 
-### Q14: The Support Ticket
+### Q14
+Look at this simplified trace:
 
-A user emails: "The app crashed when I tried to checkout."
+```
+User Request
+    │
+    ├── Auth Service (50ms) ✓
+    │
+    ├── Product Service (100ms) ✓
+    │
+    ├── Inventory Service (150ms) ✓
+    │
+    └── Payment Service (4500ms) ✗ TIMEOUT
 
-With good observability, what's your FIRST step?
+Total time: 4800ms (FAILED)
+```
 
-- A) Ask the user to try again
-- B) Ask for their session ID and look up their trace
-- C) Tell engineering "there's a bug"
-- D) Check the company Twitter for complaints
+Answer these questions:
+1. Which service caused the failure? _________________________________
+2. What percentage of time was spent in the failing service? _________________________________
+3. As a PM, what would you prioritize investigating? _________________________________
 
 ---
 
-### Q15: Prioritization
+## Section 6: Choose the Better Question
 
+### Q15
+You need to understand why users are complaining about slowness. Which question to engineering is better?
+
+**Option A:** "The app is slow, can you fix it?"
+
+**Option B:** "What's the P95 latency for the /checkout endpoint this week, and has it changed since the last deploy?"
+
+Your choice: [ ] and explain why: _________________________________
+
+### Q16
+A bug was reported. Which is the better first step?
+
+**Option A:** Ask the user to "try again and let us know if it happens again"
+
+**Option B:** Ask for the user's session ID or email to look up their specific request trace
+
+Your choice: [ ] and explain why: _________________________________
+
+---
+
+## Section 7: Categorization
+
+### Q17
+Put each item in the correct category:
+
+Items:
+- Error rate per endpoint
+- User funnel drop-off
+- Request latency P95
+- Feature adoption rate
+- Database query time
+- A/B test conversion
+- Service dependency map
+- User session recordings
+
+| Observability | Product Analytics |
+|---------------|-------------------|
+| | |
+| | |
+| | |
+| | |
+
+---
+
+## Section 8: Multiple Choice (Complex)
+
+### Q18
 Your observability dashboard shows:
-- Feature A: 0.1% error rate, 50 daily users
-- Feature B: 2% error rate, 5,000 daily users
+- Feature A: 0.5% error rate, 100 daily users
+- Feature B: 0.1% error rate, 10,000 daily users
 
-Which should you prioritize fixing?
+Calculate the daily affected users and decide which to prioritize:
 
-- A) Feature A (lower error rate)
-- B) Feature B (more users affected)
-- C) Neither, 2% is acceptable
-- D) Both equally
+Feature A affects: _______ users/day
+Feature B affects: _______ users/day
+Priority: Feature [ ] because _________________________________
 
----
+### Q19
+Which combination of tools would give you the MOST complete picture?
 
-## Section 6: AI-Specific (Bonus)
+- A) PostHog + Google Analytics
+- B) Datadog + PostHog
+- C) Honeycomb + Honeycomb
+- D) Splunk + Prometheus
 
-### Q16: AI Agent Observability
-
-What makes AI agent observability different from traditional web app observability?
-
-- A) AI agents don't need observability
-- B) AI outputs are non-deterministic, so you need to track decision quality
-- C) AI is always faster so latency doesn't matter
-- D) AI systems don't have costs to track
+Your answer: [ ] and explain: _________________________________
 
 ---
 
-### Q17: LLM Cost Tracking
+## Section 9: Real-World Application
 
-For an AI product, why is tracking token usage important?
+### Q20
+You're a PM for an AI chatbot product. List one thing you'd track in each category:
 
-- A) Tokens are a security risk
-- B) Tokens = money, and costs can grow quickly
-- C) Users care about token counts
-- D) Tokens affect UI design
-
----
+| Category | What to Track | Why |
+|----------|---------------|-----|
+| **Observability** | | |
+| **Product Analytics** | | |
+| **AI-Specific** | | |
 
 ---
 
 # Answer Key
 
-**Don't scroll down until you've attempted all questions!**
+**Don't scroll down until you've completed all sections!**
 
 .
 .
@@ -232,36 +257,118 @@ For an AI product, why is tracking token usage important?
 
 ## Answers
 
-| Question | Answer | Explanation |
-|----------|--------|-------------|
-| Q1 | **B** | Monitoring checks known things (is server up?). Observability lets you ask any question about system state. |
-| Q2 | **C** | The three pillars are Logs, Metrics, and Traces. Dashboards are a visualization tool, not a data type. |
-| Q3 | **B** | A trace follows a single request through all services, showing the full journey. |
-| Q4 | **C** | Databases store business data. Observability captures system behavior - how requests performed. |
-| Q5 | **B** | Product analytics finds the what (users abandon). Observability finds the why (checkout is failing/slow). |
-| Q6 | **C** | Honeycomb and similar observability tools let you trace slow requests to find root causes. |
-| Q7 | **B** | Specific, measurable questions ("P95 latency for checkout") get better answers than vague ones. |
-| Q8 | **C** | P95 = 95th percentile. 95% of requests are faster than this number. |
-| Q9 | **B** | Check error rates and latency to validate the feature is working, not just that it shipped. |
-| Q10 | **B** | "Blast radius" (affected users) helps prioritize and communicate impact to stakeholders. |
-| Q11 | **B** | High cardinality = many unique values. Important for querying by user ID, session ID, etc. |
-| Q12 | **B** | Honeycomb excels at querying specific users/sessions due to high-cardinality support. |
-| Q13 | **A** | For tiny scale, manual debugging is fine. Invest in observability when scale makes it necessary. |
-| Q14 | **B** | With good observability, you can look up exactly what happened in their session. |
-| Q15 | **B** | Feature B affects 100 users/day (5000 × 2%), Feature A affects 0.05 users/day. Prioritize by impact. |
-| Q16 | **B** | AI is non-deterministic - same input can give different outputs. Need to track decision quality, not just success/failure. |
-| Q17 | **B** | LLM API calls cost money per token. Without tracking, costs can spiral unexpectedly. |
+### Section 1: True or False
+
+| Q | Answer | Explanation |
+|---|--------|-------------|
+| Q1 | **False** | Monitoring checks known things; observability lets you explore unknowns |
+| Q2 | **False** | PostHog tracks user behavior, not system behavior |
+| Q3 | **True** | Logs, Metrics, Traces are the three pillars |
+| Q4 | **False** | P95 means 95% of requests are UNDER 2 seconds (not average) |
+| Q5 | **True** | Analytics finds the what, observability finds the why |
+
+### Section 2: Fill in the Blanks
+
+| Q | Answer |
+|---|--------|
+| Q6 | **memory** / **diary** (or journal/record) |
+| Q7 | **pre-defined** (or known) / **arbitrary** (or any) |
+| Q8 | **"checkout is timing out for X% of requests"** (or similar system-level explanation) |
+
+### Section 3: Matching
+
+| Q9 | Q10 |
+|----|-----|
+| 1→B | 1→B |
+| 2→A | 2→A |
+| 3→D | 3→C |
+| 4→C | 4→A |
+
+### Section 4: Scenario-Based
+
+**Q11:**
+- Without: "Can you reproduce it? What browser? When exactly?" (back-and-forth)
+- With: "What's your email/session ID?" → Look up their exact trace → Find root cause
+
+**Q12:** Good answers include:
+1. Error rate for quick checkout
+2. Latency (P50, P95) for quick checkout
+3. Success rate / completion rate
+4. Comparison to regular checkout performance
+
+**Q13:** Good questions:
+1. "What's the blast radius - how many users affected?"
+2. "When did this start? Any recent deploys?"
+3. "Which user segments are impacted (enterprise, free, specific regions)?"
+4. "What's the error rate trend - getting better or worse?"
+
+### Section 5: Diagram Interpretation
+
+**Q14:**
+1. Payment Service
+2. 94% (4500ms / 4800ms)
+3. Payment service reliability - why is it timing out? Is it a dependency, capacity issue, or code problem?
+
+### Section 6: Choose the Better Question
+
+**Q15:** Option B - It's specific, measurable, and gives engineering something concrete to investigate.
+
+**Q16:** Option B - With good observability, you can see exactly what happened instead of waiting for reproduction.
+
+### Section 7: Categorization
+
+| Observability | Product Analytics |
+|---------------|-------------------|
+| Error rate per endpoint | User funnel drop-off |
+| Request latency P95 | Feature adoption rate |
+| Database query time | A/B test conversion |
+| Service dependency map | User session recordings |
+
+### Section 8: Multiple Choice
+
+**Q18:**
+- Feature A: 0.5 users/day (100 × 0.5%)
+- Feature B: 10 users/day (10,000 × 0.1%)
+- Priority: **Feature B** - 20x more users affected daily
+
+**Q19:** **B) Datadog + PostHog**
+- Datadog = observability (system health)
+- PostHog = product analytics (user behavior)
+- Together they cover both "why is it broken" and "what are users doing"
+
+### Section 9: Real-World Application
+
+**Q20:** Example answers:
+
+| Category | What to Track | Why |
+|----------|---------------|-----|
+| **Observability** | API response time, error rate | Know if the system is healthy |
+| **Product Analytics** | Messages per session, feature usage | Understand how users interact |
+| **AI-Specific** | Token costs per conversation, response quality ratings | AI has unique cost and quality dimensions |
 
 ---
 
-## Scoring
+## Scoring Guide
+
+| Section | Points | Your Score |
+|---------|--------|------------|
+| True/False (5 Q) | 5 pts | /5 |
+| Fill in Blanks (3 Q) | 6 pts | /6 |
+| Matching (2 Q) | 8 pts | /8 |
+| Scenarios (3 Q) | 9 pts | /9 |
+| Diagram (1 Q) | 3 pts | /3 |
+| Better Question (2 Q) | 4 pts | /4 |
+| Categorization (1 Q) | 8 pts | /8 |
+| Complex MC (2 Q) | 4 pts | /4 |
+| Application (1 Q) | 3 pts | /3 |
+| **Total** | **50 pts** | **/50** |
 
 | Score | Level |
 |-------|-------|
-| 15-17 | Expert - You understand observability deeply |
-| 12-14 | Proficient - Solid foundation, minor gaps |
-| 9-11 | Developing - Review the fundamentals |
-| 0-8 | Beginner - Start with [01-Fundamentals.md](../learn-code/observability/01-Fundamentals.md) |
+| 45-50 | Expert - You deeply understand observability |
+| 35-44 | Proficient - Solid foundation |
+| 25-34 | Developing - Review key concepts |
+| 0-24 | Beginner - Start with [01-Fundamentals.md](../learn-code/observability/01-Fundamentals.md) |
 
 ---
 
