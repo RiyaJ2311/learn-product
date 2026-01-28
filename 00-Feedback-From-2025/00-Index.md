@@ -68,10 +68,15 @@ Each module tackles one feedback theme with frameworks from PMs who've figured t
 **The fix:** Sell impact. Repeat it. Make it memorable.
 **Go to:** [05-Leadership-Trust/](../05-Leadership-Trust/)
 
-### Module 6: Product-Led Growth
-**My context:** PLG at PushOwl — pricing, activation, retention
-**The fix:** Build systematic growth, not one-off experiments
-**Go to:** [06-Product-Led-Growth/](../06-Product-Led-Growth/)
+### Module 7: Thinking Patterns
+**My context:** Mental models for better decision-making
+**The fix:** Apply first principles, inversion, and systems thinking
+**Go to:** [07-Thinking-Patterns/](../07-Thinking-Patterns/)
+
+### Module 8: AI Skills
+**My context:** Understanding AI from fundamentals to building agents
+**The fix:** Go from AI user to AI builder
+**Go to:** [08-AI-Skills/](../08-AI-Skills/)
 
 ---
 
@@ -94,7 +99,8 @@ Each module tackles one feedback theme with frameworks from PMs who've figured t
 | One-page cheatsheet | [CHEATSHEET.md](../CHEATSHEET.md) |
 | Practice exercises | [scenario-exercises.md](../tests/scenario-exercises.md) |
 | Weekly rituals | [02-Weekly-Rituals.md](02-Weekly-Rituals.md) |
-| Feedback themes | [themes-summary.md](../feedback-vault/themes-summary.md) |
+| Feedback themes | [03-Themes-Summary.md](03-Themes-Summary.md) |
+| Learning paths | [04-Learning-Paths.md](04-Learning-Paths.md) |
 
 ---
 
